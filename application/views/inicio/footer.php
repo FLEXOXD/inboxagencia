@@ -105,20 +105,20 @@
 
 					<!-- Gallery footer -->
 					<div class="wrap-gallery-footer flex-w">
-						<a class="item-gallery-footer wrap-pic-w" href="<?php echo base_url('assets/imagen/certificados/1.png'); ?>" data-lightbox="gallery-footer">
-							<img src="<?php echo base_url('assets/imagen/certificados/1.png'); ?>" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w"  >
+							<img src="<?php echo base_url('assets/imagen/certificados/1.png'); ?>" >
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="<?php echo base_url('assets/imagen/certificados/2.png'); ?>" data-lightbox="gallery-footer">
-							<img src="<?php echo base_url('assets/imagen/certificados/2.png'); ?>" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" >
+							<img src="<?php echo base_url('assets/imagen/certificados/2.png'); ?>" >
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="<?php echo base_url('assets/imagen/certificados/1.png'); ?>" data-lightbox="gallery-footer">
-							<img src="<?php echo base_url('assets/imagen/certificados/1.png'); ?>" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" >
+							<img src="<?php echo base_url('assets/imagen/certificados/1.png'); ?>" >
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="<?php echo base_url('assets/imagen/certificados/2.png'); ?>" data-lightbox="gallery-footer">
-							<img src="<?php echo base_url('assets/imagen/certificados/2.png'); ?>" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w">
+							<img src="<?php echo base_url('assets/imagen/certificados/2.png'); ?>" >
 						</a>
 					</div>
 

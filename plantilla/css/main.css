@@ -1422,27 +1422,22 @@ body {padding-right: 0px !important;}
 .item-gallery-footer {
   display: block;
   position: relative;
-  width: calc((100% - 50px) / 4 );
+  width: calc((100% - 50px) / 4);
   margin-right: 10px;
   margin-bottom: 10px;
+  overflow: hidden; /* Oculta el contenido que se desborda */
+  border: 2px solid transparent; /* Establece un borde transparente por defecto */
 }
 
-.item-gallery-footer::after {
-  content: "";
-  display: block;
-  position: absolute;
+.item-gallery-footer img {
   width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  height: auto;
+  transition: transform 0.4s ease, border-color 0.4s ease; /* Agrega una transición suave tanto al efecto de zoom como al color del borde */
 }
 
-.item-gallery-footer:hover:after {
-  background-color: rgba(236,29,37,0.7);
+.item-gallery-footer:hover img {
+  transform: scale(1.2); /* Zoom al 120% cuando se hace hover */
+  border-color: #000; /* Cambia el color del borde a negro al hacer hover */
 }
 
 
