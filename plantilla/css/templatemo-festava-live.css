@@ -833,7 +833,7 @@ strong {
   background-color: #141B23;
   background-repeat: no-repeat;
   margin: 0 auto; /* Centra horizontalmente */
-  padding: 20px; /* Espaciado adicional si es necesario */
+  padding: 10px; /* Espaciado adicional si es necesario */
   max-width: 350px; /* Ancho máximo si se desea limitar el tamaño */
 }
 
