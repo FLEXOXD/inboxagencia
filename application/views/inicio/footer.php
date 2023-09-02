@@ -66,7 +66,7 @@
 
 						<p class="regular m-b-18">
 							Activello is a good option. It has a slider built into that displays the featured image in the slider.
-							<a href="#" class="regular">
+							<a href="#" class="txt15">
 								https://buff.ly/2zaSfAQ
 							</a>
 						</p>
@@ -86,7 +86,7 @@
 
 						<p class="regular m-b-18">
 							Activello is a good option. It has a slider built into that displays
-							<a href="#" class="regular">
+							<a href="#" class="txt15">
 								https://buff.ly/2zaSfAQ
 							</a>
 						</p>
