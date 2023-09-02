@@ -124,7 +124,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-	color: #611FD1;
+	color: #2871FA;
 }
 
 /* ------------------------------------ */
@@ -709,9 +709,9 @@ input[type="date" i] {
 }
 
 .btn-show-sidebar:hover {
-  border-top: 2px solid #6022D2;
-  border-bottom: 2px solid #6022D2;
-  box-shadow: 0 4px 0 #6022D2, 0 -4px 0 #6022D2;
+  border-top: 2px solid #2871FA;
+  border-bottom: 2px solid #2871FA;
+  box-shadow: 0 4px 0 #2871FA, 0 -4px 0 #2871FA;
 }
 
 @media (max-width: 1200px) {
