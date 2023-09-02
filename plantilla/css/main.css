@@ -749,7 +749,7 @@ input[type="date" i] {
   width: 390px;
   height: 100%;
   overflow: auto;
-  background: url('../imagen/oscuro.jpg') no-repeat center center;
+  background: url('../imagen/glass.png') no-repeat center center;
   background-size: cover;
   top: 0;
   right: -390px;
@@ -787,6 +787,7 @@ input[type="date" i] {
 .show-overlay-sidebar {
   visibility: visible;
   background-color: rgba(0,0,0,0.65);
+  backdrop-filter: blur(10px);
 }
 
 /* ------------------------------------ */
