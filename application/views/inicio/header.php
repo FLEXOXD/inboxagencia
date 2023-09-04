@@ -24,14 +24,25 @@
 
     <link href="<?php echo base_url(); ?>/plantilla/css/templatemo-festava-live.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>/assets/css/estilo.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/plantilla/vendor/bootstrap/css/bootstrap.min.css">
+    <link href="<?php echo base_url(); ?>/assets/css/agenciaestilo.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="<?php echo base_url(); ?>/assets/plantilla/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>/assets/plantilla/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>/assets/plantilla/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+
+
+    <!-- Template Stylesheet -->
+    <link href="<?php echo base_url(); ?>/assets/plantilla/css/style.css" rel="stylesheet">
+
+    <link href="<?php echo base_url(); ?>/assets/plantilla/css/bootstrap.min.css" rel="stylesheet">
+
   <!--===============================================================================================-->
   	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/plantilla/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
   <!--===============================================================================================-->
   	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/plantilla/fonts/themify/themify-icons.css">
-  <!--===============================================================================================-->
-  	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/plantilla/vendor/animate/animate.css">
+
   <!--===============================================================================================-->
   	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/plantilla/vendor/css-hamburgers/hamburgers.min.css">
   <!--===============================================================================================-->
@@ -56,6 +67,7 @@
           color: purple;
       }
   </style>
+
   <style >
   .texto-invisible {
   color: transparent; /* Hace el texto transparente */
@@ -118,45 +130,7 @@
     transform: translateX(-50%) translateY(10%);
   }
 </style>
-<style>
-/* Titulo de las palbras seccioina gencia */
-.text-agencia {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: Light;
-    width: 70%; /* Ajusta el ancho según tus necesidades */
-    max-width: 1500px; /* Establece un ancho máximo si es necesario */
 
-}
-
-.title {
-    font-size: 34px;
-    margin-bottom: 10px;
-}
-
-.description {
-    font-size: 58px;
-}
-
-
-/* Estilos para hacer la sección "text-agencia" más responsiva */
-@media (max-width: 768px) {
-    .description {
-        font-size: 3rem; /* Reducir el tamaño en pantallas más pequeñas */
-    }
-}
-
-@media (max-width: 576px) {
-    .title {
-        font-size: 1.5rem; /* Reducir aún más el tamaño en pantallas pequeñas */
-    }
-    .description {
-        font-size: 2.5rem;
-    }
-}
-</style>
 <style>
 
 .saber-mas-button {
@@ -233,9 +207,52 @@
 }
 
 </style>
+<style>
+
+.preloader-container {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000000;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 9999;
+opacity: 1; /* Inicialmente visible */
+transition: opacity 1s ease, transform 1s ease; /* Transición de opacidad y transformación */
+transform: translateY(0%); /* Desplazado hacia abajo inicialmente */
+}
+
+.preloader {
+background: transparent;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.preloader img {
+max-width: 100px;
+max-height: 100px;
+}
+
+.content {
+display: none;
+}
+</style>
 
 </head>
 <body>
+  <div class="preloader-container">
+      <div class="preloader">
+          <img src="<?php echo base_url('assets/imagen/inbox.gif'); ?>" alt="Cargando...">
+          <div class="content">
+              <!-- Contenido de tu página web -->
+          </div>
+      </div>
+  </div>
+
   <!-- Header -->
   <header>
     <!-- Header desktop -->

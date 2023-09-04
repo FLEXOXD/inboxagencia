@@ -1,0 +1,78 @@
+/* para crear fondos en cualquier ventana*/
+.content-container {
+  background-image: url('../imagen/fondos/fondoruido2.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL de tu imagen de fondo */
+  background-size: 100% 100%; /* Ajusta el tamaño de la imagen de fondo según sea necesario */
+  background-repeat: no-repeat;
+  background-position: center; /* Ajusta la posición de la imagen de fondo según sea necesario */
+  padding-bottom: 100px; /* Ajusta la cantidad de espacio en la parte inferior para evitar que choque con el footer */
+}
+
+/* ------------------------------------
+Titulo de las palbras seccioina gencia
+---------------------------------------*/
+
+
+.title {
+    font-size: 58px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 41px;
+}
+
+
+/* Estilos para hacer la sección "text-agencia" más responsiva */
+@media (max-width: 768px) {
+    .description {
+        font-size: 1.5rem; /* Reducir el tamaño en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 1.5rem; /* Reducir aún más el tamaño en pantallas pequeñas */
+    }
+    .description {
+        font-size: 0.8rem;
+    }
+}
+/* ------------------------------------
+Titulo de las palbras seccioin agencia mas abajo
+---------------------------------------*/
+.text-contenido {
+    position: absolute;
+    top: 159%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: Light;
+    width: 70%; /* Ajusta el ancho según tus necesidades */
+    max-width: 1500px; /* Establece un ancho máximo si es necesario */
+
+}
+
+.title-contenido {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.description-contenido {
+    font-size: 58px;
+}
+
+
+/* Estilos para hacer la sección "text-agencia" más responsiva */
+@media (max-width: 768px) {
+    .description-contenido {
+        font-size: 3rem; /* Reducir el tamaño en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 576px) {
+    .title-contenido {
+        font-size: 1.5rem; /* Reducir aún más el tamaño en pantallas pequeñas */
+    }
+    .description-contenido {
+        font-size: 2.5rem;
+    }
+}

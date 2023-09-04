@@ -53,47 +53,30 @@
 				<div class="col-sm-6 col-md-4 p-t-50">
 					<!-- - -->
 					<h4 class="medium m-b-33">
-						Latest twitter
+						Stalkeanos
 					</h4>
 
 					<div class="m-b-25">
-						<span class="fs-13 color2 m-r-5">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-						</span>
-						<a href="#" class="regular">
-							@colorlib
-						</a>
-
-						<p class="regular m-b-18">
-							Activello is a good option. It has a slider built into that displays the featured image in the slider.
-							<a href="#" class="txt15">
-								https://buff.ly/2zaSfAQ
-							</a>
-						</p>
-
-						<span class="regular">
-							21 Dec 2017
-						</span>
-					</div>
-
-					<div>
-						<span class="fs-13 color2 m-r-5">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-						</span>
-						<a href="#" class="regular">
-							@colorlib
-						</a>
-
-						<p class="regular m-b-18">
-							Activello is a good option. It has a slider built into that displays
-							<a href="#" class="txt15">
-								https://buff.ly/2zaSfAQ
-							</a>
-						</p>
-
-						<span class="regular">
-							21 Dec 2017
-						</span>
+            <li class="social-icon-item">
+                <a href="https://www.instagram.com/inbox.agencia/" class="social-icon-link" target="_blank">
+                    <span class="bi-instagram"></span>
+                </a>
+            </li>
+            <li class="social-icon-item">
+                <a href="#" class="social-icon-link" target="_blank">
+                    <span class="bi-behance"></span>
+                </a>
+            </li>
+            <li class="social-icon-item">
+                <a href="#" class="social-icon-link" target="_blank">
+                    <span class="bi-linkedin"></span>
+                </a>
+            </li>
+            <li class="social-icon-item">
+                <a href="https://www.tiktok.com/@inboxagencia" class="social-icon-link" target="_blank">
+                    <span class="bi-tiktok"></span>
+                </a>
+            </li>
 					</div>
 				</div>
 
@@ -106,19 +89,13 @@
 					<!-- Gallery footer -->
 					<div class="wrap-gallery-footer flex-w">
 						<a class="item-gallery-footer wrap-pic-w"  >
-							<img src="<?php echo base_url('assets/imagen/certificados/1.png'); ?>" >
+							<img src="<?php echo base_url('assets/imagen/certificado/1.jpg'); ?>" >
 						</a>
-
 						<a class="item-gallery-footer wrap-pic-w" >
-							<img src="<?php echo base_url('assets/imagen/certificados/2.png'); ?>" >
+							<img src="<?php echo base_url('assets/imagen/certificado/2.jpg'); ?>" >
 						</a>
-
 						<a class="item-gallery-footer wrap-pic-w" >
-							<img src="<?php echo base_url('assets/imagen/certificados/1.png'); ?>" >
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w">
-							<img src="<?php echo base_url('assets/imagen/certificados/2.png'); ?>" >
+							<img src="<?php echo base_url('assets/imagen/certificado/3.jpg'); ?>" >
 						</a>
 					</div>
 
@@ -130,10 +107,10 @@
 			<div class="container">
 				<div class="flex-sb-m flex-w p-t-22 p-b-22">
 					<div class="p-t-5 p-b-5">
-						<a href="https://www.instagram.com/inbox.agencia/" class="fs-15 c-white"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-						<a href="#" class="fs-15 c-white"><i class="fa fa-behance m-l-18" aria-hidden="true"></i></a>
-						<a href="#" class="fs-15 c-white"><i class="fa fa-linkedin m-l-18" aria-hidden="true"></i></a>
-            <a href="https://www.tiktok.com/@inboxagencia" class="fs-15 c-white"><i class="bi-tiktok m-l-18" aria-hidden="true"></i></a>
+						<a href="https://www.instagram.com/inbox.agencia/" class="fs-15 c-white"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
+						<a href="#" class="fs-15 c-white"><i class="fa fa-behance m-l-18" aria-hidden="true" target="_blank"></i></a>
+						<a href="#" class="fs-15 c-white"><i class="fa fa-linkedin m-l-18" aria-hidden="true" target="_blank"></i></a>
+            <a href="https://www.tiktok.com/@inboxagencia" class="fs-15 c-white"><i class="bi-tiktok m-l-18" aria-hidden="true" target="_blank"></i></a>
 					</div>
 
 					<div class="bold p-r-20 p-t-5 p-b-5">
@@ -149,6 +126,9 @@
     <img class="custom-image" src="<?php echo base_url('assets/imagen/Recurso5.png'); ?>" alt="Botón de retorno arriba">
   </span>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 <!--===============================================================================================-->
 	<script type="text/javascript" src="<?php echo base_url(); ?>/plantilla/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
@@ -174,7 +154,63 @@
 <!--===============================================================================================-->
 	<script type="text/javascript" src="<?php echo base_url(); ?>/plantilla/vendor/lightbox2/js/lightbox.min.js"></script>
 <!--===============================================================================================-->
-	<script src="<?php echo base_url(); ?>/plantilla/js/main.js"></script>
+	<script src="<?php echo base_url(); ?>/assets/js/script.js"></script>
+  <script src="<?php echo base_url(); ?>/plantilla/js/main.js"></script>
+  <script src="<?php echo base_url(); ?>/assets/plantilla/lib/wow/wow.min.js"></script>
+
+
+
+
+  <script src="<?php echo base_url(); ?>/assets/plantilla/lib/tempusdominus/js/moment.min.js"></script>
+  <script src="<?php echo base_url(); ?>/assets/plantilla/lib/tempusdominus/js/moment-timezone.min.js"></script>
+
+  <script>
+     new WOW().init();
+  </script>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var scrollButton = document.getElementById('scrollButton');
+
+        scrollButton.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            // La cantidad de desplazamiento que deseas, por ejemplo, 100 píxeles.
+            var scrollAmount = 850;
+
+            // Obtener la posición actual de desplazamiento vertical.
+            var currentPosition = window.pageYOffset;
+
+            // Calcular la nueva posición de desplazamiento.
+            var targetPosition = currentPosition + scrollAmount;
+
+            // Realizar un desplazamiento suave.
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+<script>
+  // Espera a que se cargue todo el contenido de la página
+  window.addEventListener('load', function () {
+    // Oculta el preloader después de un tiempo determinado (por ejemplo, 2 segundos)
+    setTimeout(function () {
+      var preloaderContainer = document.querySelector('.preloader-container');
+      preloaderContainer.style.opacity = '0';
+      preloaderContainer.style.transform = 'translateY(-100%)';
+
+      // Muestra el contenido de la página con una transición suave
+      var contentToLoad = document.querySelector('.content-to-load');
+      contentToLoad.style.opacity = '1';
+      contentToLoad.style.visibility = 'visible';
+    }, 2000); // Ajusta el tiempo según tus necesidades
+  });
+</script>
+
+
 </body>
 
 </html>
