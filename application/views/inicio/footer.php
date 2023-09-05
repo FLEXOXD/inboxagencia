@@ -107,9 +107,9 @@
 			<div class="container">
 				<div class="flex-sb-m flex-w p-t-22 p-b-22">
 					<div class="p-t-5 p-b-5">
-						<a href="https://www.instagram.com/inbox.agencia/" class="fs-15 c-white"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i></a>
-						<a href="#" class="fs-15 c-white"><i class="fa fa-behance m-l-18" aria-hidden="true" target="_blank"></i></a>
-						<a href="#" class="fs-15 c-white"><i class="fa fa-linkedin m-l-18" aria-hidden="true" target="_blank"></i></a>
+						<a href="https://www.instagram.com/inbox.agencia/" class="fs-15 c-white"><i class="fa bi-instagram" aria-hidden="true" target="_blank"></i></a>
+						<a href="#" class="fs-15 c-white"><i class="fa bi-behance m-l-18" aria-hidden="true" target="_blank"></i></a>
+						<a href="#" class="fs-15 c-white"><i class="fa bi-linkedin m-l-18" aria-hidden="true" target="_blank"></i></a>
             <a href="https://www.tiktok.com/@inboxagencia" class="fs-15 c-white"><i class="bi-tiktok m-l-18" aria-hidden="true" target="_blank"></i></a>
 					</div>
 
