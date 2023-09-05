@@ -44,7 +44,7 @@
   	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/plantilla/fonts/themify/themify-icons.css">
 
   <!--===============================================================================================-->
-  	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/plantilla/vendor/css-hamburgers/hamburgers.min.css">
+
   <!--===============================================================================================-->
   	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/plantilla/vendor/animsition/css/animsition.min.css">
   <!--===============================================================================================-->

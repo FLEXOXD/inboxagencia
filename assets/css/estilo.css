@@ -28,6 +28,7 @@
   border-radius: 5px;
   cursor: pointer;
   background-image: linear-gradient(135deg, #611FD1, #611FD1);
+  box-shadow: 0 0 0 3px white; /* Agregar un contorno blanco */
 }
 
 .my-custom-button:hover {
