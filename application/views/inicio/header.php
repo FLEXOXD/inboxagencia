@@ -160,7 +160,7 @@
     position: relative;
     font-size: 12px;
     margin-left: 5px;
-    animation: arrowMove 2s infinite;
+    animation: arrowMove 4s infinite;
 }
 
 /* Animación de movimiento hacia abajo */
