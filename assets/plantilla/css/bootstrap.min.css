@@ -8374,7 +8374,7 @@ fieldset:disabled .btn {
 }
 
 .bg-dark {
-    background-color: #0F172B !important
+    background-color: rgba(15, 23, 43, 0) !important; /* 0 significa completamente transparente */
 }
 
 .bg-body {

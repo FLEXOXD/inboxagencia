@@ -292,7 +292,7 @@ display: none;
       </li>
 
       <li class="t-center m-b-13">
-        <a href="gallery.html" class="medium" style="font-size: 20px;" >Portafolio</a>
+        <a href="<?php echo site_url('Portafolios/index'); ?>" class="medium" style="font-size: 20px;" >Portafolio</a>
       </li>
 
       <li class="t-center m-b-13">
