@@ -60,6 +60,7 @@
   	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/plantilla/css/main.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/custom.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!--===============================================================================================-->
     <style>
@@ -278,7 +279,7 @@ display: none;
   <!-- Sidebar -->
   <aside class="sidebar trans-0-4" style="display: flex; flex-direction: column; align-items: center;">
     <!-- Button Hide sidebar -->
-    <button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+    <button class="btn-hide-sidebar bi-x-square-fill color0-hov trans-0-4"></button>
 
     <!-- - -->
     <ul class="menu-sidebar p-t-95 p-b-70">

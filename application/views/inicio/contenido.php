@@ -42,7 +42,7 @@
     </div>
     <div class="video-wrap">
         <video autoplay="" loop="" muted="" class="custom-video" poster="">
-            <source src="<?php echo base_url(); ?>/assets/video/production.mp4" type="video/mp4">
+            <source src="<?php echo base_url(); ?>/assets/video/inbox.mp4" type="video/mp4">
         </video>
     </div>
 </section>

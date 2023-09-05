@@ -211,7 +211,7 @@
                  <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                      <div class="service-item rounded pt-3 white-bg"> <!-- Agregué la clase "white-bg" para el fondo blanco -->
                          <div class="p-4">
-                             <i class="fa fa-3x fas fa-paint-brush text-primary mb-4"></i>
+                             <i class="fa fa-3x bi-pencil-fill bi-vector-pe text-primary mb-4"></i>
                              <h5 class="regular">Branding</h5>
                              <p class="light" style="color: white;">Generamos vínculos tanto conscientes como subconscientes con la audiencia para influir en sus elecciones y alcanzar los objetivos de su organización.</p>
                              <br>
@@ -250,7 +250,7 @@
                              <ul class="custom-list">
                                   <li class="light" style="color: white;">Diseño web responsivo</li>
                                   <li class="light" style="color: white;">Sitios web personalizados</li>
-                                  <li class="light" style="color: white;">Rediseño de sitios web</li>
+                                  <li class="light" style="color: white;">Rediseño de sitios web (html, Css, js)</li>
                                   <li class="light" style="color: white;">Integración de redes sociales</li>
                               </ul>
                          </div>
@@ -303,7 +303,7 @@
                               </div>
                               <div class="col-lg-6">
                                   <h5 class="section-title ff-secondary text-start text-primary fw-normal regular">Sobre nosotros</h5>
-                                  <h1 class="mb-4 extrabold">Bienvenido a <i class="fa fa-paint-brush text-primary me-2"></i><span class="animated slideInLeft medium">inbox<span class="black">.agencia</span></span></h1>
+                                  <h1 class="mb-4 extrabold">Bienvenido a <i class="bi-palette-fill text-primary me-2"></i><span class="animated slideInLeft medium">inbox<span class="black">.agencia</span></span></h1>
                                   <p class="mb-4 medium">Nuestro equipo es experto en Diseño Web, Desarrollo Web y Marketing Digital. Impulsamos tu presencia en línea con creatividad y experiencia.</p>
                                   <p class="mb-4 medium">Lideramos proyectos con calidad humana, adaptándonos a las necesidades de emprendedores, PyMes y grandes empresas. Ofrecemos un valioso servicio, fusionando estrategia, diseño y creatividad.</p>
                                   <div class="row g-4 mb-4">
