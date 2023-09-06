@@ -177,7 +177,7 @@
 
 <div class="content-container">
   <div >
-    <div class=" py-5 bg-dark hero-header mb-5">
+    <div class=" py-5 bg-dark hero-header  mb-5">
         <div class="container my-5 py-5">
             <div class="row align-items-center g-5 ">
 
@@ -277,7 +277,7 @@
      </div>
      <br><br><br><br>
      <div style="text-align: center;">
-       <img src="<?php echo base_url('assets/icono/colaborador.jpg') ?>" alt="" style="filter: grayscale(100%); max-width: 100%; height: auto; width: 90%; max-height: 700px; margin: 0 auto;">
+       <img src="<?php echo base_url('assets/icono/avenger.jpg') ?>" alt="" style="filter: grayscale(100%); max-width: 100%; height: auto; width: 90%; max-height: 700px; margin: 0 auto;">
      </div>
      <div class="nuevo-container"> <!-- Agregué la clase "new-container" -->
           <div class="container">
@@ -327,7 +327,7 @@
                                       </div>
                                   </div>
                                   <div class="sabermas animated slideInLeft" style="text-align: center;">
-                                    <a href="<?php echo site_url(); ?>" class="saber-mas-button">
+                                    <a href="<?php echo site_url('Portafolios/index'); ?>" class="saber-mas-button">
                                       Portafolio
                                       <i class="fa fa-paint-brush"></i>
                                     </a>

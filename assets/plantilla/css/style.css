@@ -151,6 +151,15 @@
 
 
 /*** Hero Header ***/
+/*** Hero Header sin movimiento de imagenes ***/
+.hero-headers {
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0vh; /* Ajusta la altura según tus necesidades */
+}
+/*** Hero Header con movimiento de imagenes ***/
 .hero-header {
 
     background-position: center center;
