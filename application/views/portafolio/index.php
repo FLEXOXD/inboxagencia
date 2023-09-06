@@ -177,7 +177,7 @@ text-align: center;
 <style >
 /* Estilo para el rectángulo especial con imagen que ocupa el ancho de los cuadrados */
 .rectangulo-especial {
-height: 700px; /* Cambia la altura a un 3% del tamaño original */
+height: 650px; /* Cambia la altura a un 3% del tamaño original */
 }
 /* Estilo para el texto en los rectángulos */
 .texto-rectangulo {
@@ -210,12 +210,13 @@ height: 700px; /* Cambia la altura a un 3% del tamaño original */
           </div>
       </div>
   </div>
+  <div class="service-container">
   <div class="col-md-12">
   <div class="cuadros-container">
     <div class="cuadro">
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
-        <img src="<?php echo base_url('assets/icono/logo1.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro">
+        <img src="<?php echo base_url('assets/icono/logo1.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
         <div class="texto">
           <h3 class="title light">Título 1</h3>
           <p class="subtitle medium">Subtítulo 1</p>
@@ -225,7 +226,7 @@ height: 700px; /* Cambia la altura a un 3% del tamaño original */
     <div class="cuadro">
       <!-- Segundo cuadro con imagen -->
       <div class="imagen-container">
-        <img src="<?php echo base_url('assets/icono/logo2.jpg'); ?>" alt="Imagen 2" class="imagen-cuadro">
+        <img src="<?php echo base_url('assets/icono/logo2.jpg'); ?>" alt="Imagen 2" class="imagen-cuadro rounded w-100 wow zoomIn">
         <div class="texto">
           <h3 class="title light">Título 2</h3>
           <p class="subtitle medium">Subtítulo 2</p>
@@ -236,7 +237,7 @@ height: 700px; /* Cambia la altura a un 3% del tamaño original */
   <!-- Rectángulo con imagen que ocupa el ancho de los cuadrados -->
   <div class="rectangulo rectangulo-especial">
   <div class="imagen-container">
-    <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo">
+    <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo rounded w-100 wow zoomIn">
     <div class="texto texto-rectangulo"> <!-- Agrega la clase texto-rectangulo -->
       <h3 class="title light">Título 3</h3>
       <p class="subtitle medium">Subtítulo 3</p>
@@ -247,7 +248,7 @@ height: 700px; /* Cambia la altura a un 3% del tamaño original */
     <div class="cuadro">
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
-        <img src="<?php echo base_url('assets/icono/logo1.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro">
+        <img src="<?php echo base_url('assets/icono/logo1.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
         <div class="texto">
           <h3 class="title light">Título 4</h3>
           <p class="subtitle medium">Subtítulo 4</p>
@@ -257,7 +258,7 @@ height: 700px; /* Cambia la altura a un 3% del tamaño original */
     <div class="cuadro">
       <!-- Segundo cuadro con imagen -->
       <div class="imagen-container">
-        <img src="<?php echo base_url('assets/icono/logo2.jpg'); ?>" alt="Imagen 2" class="imagen-cuadro">
+        <img src="<?php echo base_url('assets/icono/logo2.jpg'); ?>" alt="Imagen 2" class="imagen-cuadro rounded w-100 wow zoomIn">
         <div class="texto">
           <h3 class="title light">Título 5</h3>
           <p class="subtitle medium">Subtítulo 5</p>
@@ -268,7 +269,7 @@ height: 700px; /* Cambia la altura a un 3% del tamaño original */
   <!-- Rectángulo con imagen que ocupa el ancho de los cuadrados -->
   <div class="rectangulo rectangulo-especial">
     <div class="imagen-container">
-      <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo">
+      <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo rounded w-100 wow zoomIn">
       <div class="texto texto-rectangulo">
         <h3 class="title light">Título 7</h3>
         <p class="subtitle medium">Subtítulo 7</p>
@@ -276,5 +277,5 @@ height: 700px; /* Cambia la altura a un 3% del tamaño original */
     </div>
   </div>
 </div>
-
+</div>
 </div>

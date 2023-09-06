@@ -127,7 +127,8 @@
   </span>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 <!--===============================================================================================-->
 	<script type="text/javascript" src="<?php echo base_url(); ?>/plantilla/vendor/jquery/jquery-3.2.1.min.js"></script>
