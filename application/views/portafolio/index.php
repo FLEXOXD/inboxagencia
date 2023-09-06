@@ -270,8 +270,8 @@ height: 700px; /* Cambia la altura a un 3% del tamaño original */
     <div class="imagen-container">
       <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo">
       <div class="texto texto-rectangulo">
-        <h3 class="title light">Título 6</h3>
-        <p class="subtitle medium">Subtítulo 6</p>
+        <h3 class="title light">Título 7</h3>
+        <p class="subtitle medium">Subtítulo 7</p>
       </div>
     </div>
   </div>
