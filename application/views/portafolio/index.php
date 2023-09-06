@@ -34,31 +34,40 @@
 
 .cuadro {
   flex: 1;
-  border: 0px ;
+  border: 0px;
   max-width: calc(50% - 0%); /* Establece un ancho máximo relativo para los cuadrados */
 }
 
 .rectangulo {
   width: 100%;
+  height: 5%; /* Cambia la altura a un 5% del tamaño original */
   margin-top: 0%; /* Establece un margen superior relativo */
   max-width: 100%; /* Establece un ancho máximo relativo para el rectángulo */
+  overflow: hidden;
 }
 
+
 /* Estilo para los contenedores de imágenes con efecto de zoom y oscurecimiento */
-.cuadro,
+.cuadro {
+  position: relative;
+  overflow: hidden;
+}
 .rectangulo {
   position: relative;
   overflow: hidden;
 }
 
 /* Estilo para las imágenes */
-.imagen-cuadro,
-.imagen-rectangulo {
+.cuadro .imagen-cuadro {
   width: 100%;
   height: auto;
   transition: transform 0.3s;
 }
-
+.rectangulo .imagen-rectangulo {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+}
 /* Estilo para el efecto de oscurecimiento */
 .cuadro::before,
 .rectangulo::before {
@@ -165,6 +174,13 @@ text-align: center;
 }
 
 </style>
+<style >
+/* Estilo para el rectángulo especial con imagen que ocupa el ancho de los cuadrados */
+.rectangulo-especial {
+height: 700px; /* Cambia la altura a un 3% del tamaño original */
+}
+
+</style>
 <div class="content-portafolio ">
   <div class=" py-5 bg-dark hero-headers  mb-5">
       <div class="container my-5 py-5">
@@ -202,7 +218,7 @@ text-align: center;
     </div>
   </div>
   <!-- Rectángulo con imagen que ocupa el ancho de los cuadrados -->
-  <div class="rectangulo">
+  <div class="rectangulo rectangulo-especial">
     <div class="imagen-container">
       <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo">
       <div class="texto">
