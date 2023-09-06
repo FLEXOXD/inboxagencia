@@ -179,6 +179,22 @@ text-align: center;
 .rectangulo-especial {
 height: 700px; /* Cambia la altura a un 3% del tamaño original */
 }
+/* Estilo para el texto en los rectángulos */
+.texto-rectangulo {
+  position: absolute;
+  top: -250px; /* Ajusta el valor según la posición vertical deseada */
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  color: white;
+  transition: opacity 0.3s;
+  z-index: 2;
+}
+
 
 </style>
 <div class="content-portafolio ">
@@ -219,14 +235,14 @@ height: 700px; /* Cambia la altura a un 3% del tamaño original */
   </div>
   <!-- Rectángulo con imagen que ocupa el ancho de los cuadrados -->
   <div class="rectangulo rectangulo-especial">
-    <div class="imagen-container">
-      <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo">
-      <div class="texto">
-        <h3 class="title light">Título 3</h3>
-        <p class="subtitle medium">Subtítulo 3</p>
-      </div>
+  <div class="imagen-container">
+    <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo">
+    <div class="texto texto-rectangulo"> <!-- Agrega la clase texto-rectangulo -->
+      <h3 class="title light">Título 3</h3>
+      <p class="subtitle medium">Subtítulo 3</p>
     </div>
   </div>
+</div>
   <div class="cuadros-container">
     <div class="cuadro">
       <!-- Primer cuadro con imagen -->
@@ -250,10 +266,10 @@ height: 700px; /* Cambia la altura a un 3% del tamaño original */
     </div>
   </div>
   <!-- Rectángulo con imagen que ocupa el ancho de los cuadrados -->
-  <div class="rectangulo">
+  <div class="rectangulo rectangulo-especial">
     <div class="imagen-container">
       <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo">
-      <div class="texto">
+      <div class="texto texto-rectangulo">
         <h3 class="title light">Título 6</h3>
         <p class="subtitle medium">Subtítulo 6</p>
       </div>
