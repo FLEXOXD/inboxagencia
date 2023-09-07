@@ -34,17 +34,16 @@
 .cuadro {
   flex: 1;
   border: 0px;
-  max-width: calc(50% - 0%); /* Establece un ancho máximo relativo para los cuadrados */
+  max-width: 50%; /* Cambia el porcentaje según tus necesidades */
 }
 
 .rectangulo {
   width: 100%;
-  height: 5%; /* Cambia la altura a un 5% del tamaño original */
-  margin-top: 0%; /* Establece un margen superior relativo */
-  max-width: 100%; /* Establece un ancho máximo relativo para el rectángulo */
+  height: 5%; /* Cambia el porcentaje según tus necesidades */
+  margin-top: 0;
+  max-width: 100%;
   overflow: hidden;
 }
-
 
 /* Estilo para los contenedores de imágenes con efecto de zoom y oscurecimiento */
 .cuadro {
@@ -64,37 +63,24 @@
 }
 .rectangulo .imagen-rectangulo {
   width: 100%;
-  height: 710px;
-  transition: transform 0.3s;
-}
-/* Establece una altura predeterminada para pantallas grandes */
-.rectangulo .imagen-rectangulo {
-  width: 100%;
-  height: 710px;
+  height: auto;
+  max-height: 675px; /* Cambia el valor máximo de altura según tus necesidades */
   transition: transform 0.3s;
 }
 
 /* Ajusta la altura para pantallas medianas, como tablets */
 @media (max-width: 992px) {
   .rectangulo .imagen-rectangulo {
-    height: 400px; /* Cambia este valor según tus necesidades para pantallas medianas */
+    max-height: 400px; /* Cambia este valor según tus necesidades para pantallas medianas */
   }
 }
 
 /* Ajusta la altura para pantallas pequeñas, como celulares */
 @media (max-width: 768px) {
   .rectangulo .imagen-rectangulo {
-    height: 300px; /* Cambia este valor según tus necesidades para pantallas pequeñas (celulares) */
+    max-height: 200px; /* Cambia este valor según tus necesidades para pantallas pequeñas */
   }
 }
-
-/* Ajusta la altura solo para pantallas de resolución 1280x1024 */
-@media screen and (min-width: 1280px) and (max-width: 1280px) and (min-height: 1024px) and (max-height: 1024px) {
-  .rectangulo .imagen-rectangulo {
-    height: 350px; /* Ajusta este valor según tus necesidades para pantallas de 1280x1024 */
-  }
-}
-
 
 /* Estilo para el efecto de oscurecimiento */
 .cuadro::before,
