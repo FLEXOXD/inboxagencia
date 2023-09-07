@@ -15,31 +15,36 @@
   <div class="service-container">
   <div class="col-md-12">
   <div class="cuadros-container">
-    <div class="cuadro">
+
+    <div class="cuadro" data-url="<?php echo site_url(); ?>"> <!-- Reemplaza URL_del_primer_enlace con la URL deseada -->
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
+
         <img src="<?php echo base_url('assets/icono/logo1.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+
         <div class="texto">
           <h3 class="title light">Título 1</h3>
           <p class="subtitle medium">Subtítulo 1</p>
         </div>
       </div>
     </div>
-    <div class="cuadro">
-      <!-- Segundo cuadro con imagen -->
-      <div class="imagen-container">
-        <img src="<?php echo base_url('assets/icono/logo2.jpg'); ?>" alt="Imagen 2" class="imagen-cuadro rounded w-100 wow zoomIn">
-        <div class="texto">
-          <h3 class="title light">Título 2</h3>
-          <p class="subtitle medium">Subtítulo 2</p>
+    <div class="cuadro" data-url="<?php echo site_url(); ?>">
+          <!-- Primer cuadro con imagen y enlace -->
+
+            <div class="imagen-container">
+              <img src="<?php echo base_url('assets/icono/logo1.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+            </div>
+            <div class="texto">
+              <h3 class="title light">Título 1</h3>
+              <p class="subtitle medium">Subtítulo 1</p>
+            </div>
+
         </div>
-      </div>
-    </div>
   </div>
   <!-- Rectángulo con imagen que ocupa el ancho de los cuadrados -->
-  <div class="rectangulo ">
+  <div class="rectangulo " data-url="<?php echo site_url(); ?>">
   <div class="imagen-container">
-    <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo rounded w-100 wow zoomIn">
+    <img  src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo rounded w-100 wow zoomIn">
     <div class="texto texto-rectangulo"> <!-- Agrega la clase texto-rectangulo -->
       <h3 class="title light">Título 3</h3>
       <p class="subtitle medium">Subtítulo 3</p>
@@ -47,7 +52,7 @@
   </div>
 </div>
   <div class="cuadros-container">
-    <div class="cuadro">
+    <div class="cuadro" data-url="<?php echo site_url(); ?>">
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
         <img src="<?php echo base_url('assets/icono/logo1.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
@@ -57,7 +62,7 @@
         </div>
       </div>
     </div>
-    <div class="cuadro">
+    <div class="cuadro" data-url="<?php echo site_url(); ?>">
       <!-- Segundo cuadro con imagen -->
       <div class="imagen-container">
         <img src="<?php echo base_url('assets/icono/logo2.jpg'); ?>" alt="Imagen 2" class="imagen-cuadro rounded w-100 wow zoomIn">
@@ -69,7 +74,7 @@
     </div>
   </div>
   <!-- Rectángulo con imagen que ocupa el ancho de los cuadrados -->
-  <div class="rectangulo ">
+  <div class="rectangulo " data-url="<?php echo site_url(); ?>">
     <div class="imagen-container">
       <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo rounded w-100 wow zoomIn">
       <div class="texto texto-rectangulo">
@@ -81,3 +86,18 @@
 </div>
 </div>
 </div>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+    const cuadros = document.querySelectorAll('.cuadro , .rectangulo');
+
+    cuadros.forEach((cuadro) => {
+      cuadro.style.cursor = 'url("<?php echo base_url('assets/imagen/icon/icons8-cursor.svg'); ?>"), pointer'; // Cambia la ruta a la ubicación real de tu archivo SVG
+      cuadro.addEventListener('click', function () {
+        const url = cuadro.getAttribute('data-url');
+        if (url) {
+          window.location.href = url; // Redirige a la URL especificada
+        }
+      });
+    });
+  });
+</script>
