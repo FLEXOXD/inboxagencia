@@ -86,12 +86,13 @@
 </div>
 </div>
 </div>
+
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function () {
     const cuadros = document.querySelectorAll('.cuadro , .rectangulo');
 
     cuadros.forEach((cuadro) => {
-      cuadro.style.cursor = 'url("<?php echo base_url('assets/imagen/icon/icons8-cursor.svg'); ?>"), pointer'; // Cambia la ruta a la ubicación real de tu archivo SVG
+      cuadro.style.cursor = 'url("<?php echo base_url('assets/imagen/icon/cursor54.svg'); ?>") , pointer'; // Cambia la ruta a la ubicación real de tu archivo SVG y establece el tamaño (16x16 en este ejemplo)
       cuadro.addEventListener('click', function () {
         const url = cuadro.getAttribute('data-url');
         if (url) {
