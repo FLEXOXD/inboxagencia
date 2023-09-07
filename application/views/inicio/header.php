@@ -35,8 +35,9 @@
 
     <!-- Template Stylesheet -->
     <link href="<?php echo base_url(); ?>/assets/plantilla/css/style.css" rel="stylesheet">
-
+    <link href="<?php echo base_url(); ?>/assets/css/portafolio.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>/assets/plantilla/css/bootstrap.min.css" rel="stylesheet">
+
 
   <!--===============================================================================================-->
   	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/plantilla/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -242,17 +243,36 @@ max-height: 100px;
 display: none;
 }
 </style>
+<style media="screen">
+.content-to-load {
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.5s, visibility 0.5s;
+}
+
+</style>
+<script>
+setTimeout(function () {
+  var preloaderContainer = document.querySelector('.preloader-container');
+  preloaderContainer.style.opacity = '0';
+  preloaderContainer.style.transform = 'translateY(-100%)';
+
+  // Muestra el contenido de la página con una transición suave
+  var contentToLoad = document.querySelector('.content-to-load');
+  contentToLoad.style.opacity = '1';
+  contentToLoad.style.visibility = 'visible';
+}, 1); // Cambia este valor a 4000 para 4 segundos
+
+</script>
 
 </head>
 <body>
   <div class="preloader-container">
-      <div class="preloader">
-          <img src="<?php echo base_url('assets/imagen/inbox.gif'); ?>" alt="Cargando...">
-          <div class="content">
-              <!-- Contenido de tu página web -->
-          </div>
-      </div>
+  <div class="preloader">
+    <img src="<?php echo base_url('assets/imagen/inbox.gif'); ?>" alt="Cargando...">
   </div>
+</div>
+
 
   <!-- Header -->
   <header>
