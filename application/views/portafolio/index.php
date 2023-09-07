@@ -210,7 +210,7 @@ height: 650px; /* Cambia la altura a un 3% del tamaño original */
           <div class="row align-items-center g-5 ">
               <div class="texto-centrado  ">
                 <h4 class=" animated slideInLeft medium">inbox<span class="black">.agencia</span></h4>
-                  <p class="  description-port texto-centrado extrabold" >
+                  <p class="  animated slideInLeft description-port texto-centrado extrabold" >
                      Casos de Exito
                    </p>
               </div>
