@@ -23,7 +23,7 @@
   align-items: center;
   max-width: 76%; /* Establece un ancho máximo relativo para el contenedor */
   margin: 0 auto; /* Centra el contenedor horizontalmente */
-  margin-top: 14%; /* Establece un margen superior relativo */
+  margin-top: 17%; /* Establece un margen superior relativo */
 }
 
 .cuadros-container {
@@ -97,7 +97,7 @@
 /* Estilos para pantallas medianas (por ejemplo, tablets) */
 @media (max-width: 992px) {
   .col-md-12 {
-    margin-top: 300px; /* Ajusta el margen superior para pantallas medianas */
+    margin-top: 0px; /* Ajusta el margen superior para pantallas medianas */
   }
 
   .cuadro {
@@ -179,6 +179,13 @@ text-align: center;
 .rectangulo-especial {
 height: 650px; /* Cambia la altura a un 3% del tamaño original */
 }
+/* Estilos para pantallas pequeñas (por ejemplo, smartphones) */
+@media (max-width: 768px) {
+  .rectangulo-especial {
+    height: 3%; /* Cambia la altura solo en pantallas pequeñas */
+  }
+}
+
 /* Estilo para el texto en los rectángulos */
 .texto-rectangulo {
   position: absolute;

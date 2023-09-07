@@ -197,17 +197,15 @@
 <script>
   // Espera a que se cargue todo el contenido de la página
   window.addEventListener('load', function () {
-    // Oculta el preloader después de un tiempo determinado (por ejemplo, 2 segundos)
-    setTimeout(function () {
-      var preloaderContainer = document.querySelector('.preloader-container');
-      preloaderContainer.style.opacity = '0';
-      preloaderContainer.style.transform = 'translateY(-100%)';
+    // Oculta el preloader después de que se haya cargado todo el contenido
+    var preloaderContainer = document.querySelector('.preloader-container');
+    preloaderContainer.style.opacity = '0';
+    preloaderContainer.style.transform = 'translateY(-100%)';
 
-      // Muestra el contenido de la página con una transición suave
-      var contentToLoad = document.querySelector('.content-to-load');
-      contentToLoad.style.opacity = '1';
-      contentToLoad.style.visibility = 'visible';
-    }, 2000); // Ajusta el tiempo según tus necesidades
+    // Muestra el contenido de la página con una transición suave
+    var contentToLoad = document.querySelector('.content-to-load');
+    contentToLoad.style.opacity = '1';
+    contentToLoad.style.visibility = 'visible';
   });
 </script>
 
