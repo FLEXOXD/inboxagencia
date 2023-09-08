@@ -303,20 +303,20 @@ Titulo de las palabras sección portafolio
                          <div class="textos-adicionales">
                            <!-- Título y subtítulo con clase personalizada -->
                            <div class="texto-titulo-subtitulo">
-                             <h2 class="titulo thim">Solución</h2>
-                             <p class="subtitulo light">Diseño de Logotipo</p>
+                             <h2 class="titulo thim animated slideInLeft ">Solución</h2>
+                             <p class="subtitulo light animated slideInLeft ">Diseño de Logotipo</p>
                            </div>
 
                            <!-- Título y subtítulo con clase personalizada -->
                            <div class="texto-titulo-subtitulo">
-                             <h2 class="titulo thim">Año</h2>
-                             <p class="subtitulo light">2018</p>
+                             <h2 class="titulo thim animated slideInLeft ">Año</h2>
+                             <p class="subtitulo light animated slideInLeft ">2018</p>
                            </div>
 
                            <!-- Título y subtítulo con clase personalizada -->
                            <div class="texto-titulo-subtitulo">
-                             <h2 class="titulo thim">Enlace</h2>
-                             <p class="subtitulo light"><a href="https://www.instagram.com/kfcecuador/">@KFCEcuadorIG</a></p>
+                             <h2 class="titulo thim animated slideInLeft ">Enlace</h2>
+                             <p class="subtitulo light animated slideInLeft "><a href="https://www.instagram.com/kfcecuador/">@KFCEcuadorIG</a></p>
                            </div>
                          </div>
 
