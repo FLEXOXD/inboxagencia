@@ -288,7 +288,7 @@
                               <div class="col-lg-6">
                                   <div class="row g-3">
                                       <div class="col-6 text-start">
-                                          <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="<?php echo base_url(); ?>/assets/icono/logo1.jpg">
+                                          <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="<?php echo base_url(); ?>/assets/icono/logo2.jpg">
                                       </div>
                                       <div class="col-6 text-start">
                                           <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="<?php echo base_url(); ?>/assets/icono/logo2.jpg" style="margin-top: 25%;">

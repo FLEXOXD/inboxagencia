@@ -1,0 +1,292 @@
+
+.custom-video {
+    filter: brightness(0.5);
+}
+
+/* ------------------------------------
+Titulo de las palabras sección portafolio
+---------------------------------------*/
+
+.Sectionkfc {
+  text-align: light;
+  padding-left: 11%; /* Utilizamos porcentaje en lugar de píxeles */
+  margin-top: 5%; /* Utilizamos porcentaje en lugar de píxeles */
+}
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .Sectionkfc {
+    text-align: center;
+    padding-left: 5%; /* Utilizamos porcentaje en lugar de píxeles */
+    margin-top: 0%; /* Utilizamos porcentaje en lugar de píxeles */
+  }
+}
+/* ------------------------------------
+Titulo de las palabras sección portafolio
+---------------------------------------*/
+
+.titlekfc {
+    font-size: 2.2vw; /* Utilizamos unidades relativas */
+    margin-bottom: 1%; /* Utilizamos porcentaje en lugar de píxeles */
+}
+.titlek {
+    font-size: 2.2vw; /* Utilizamos unidades relativas */
+    margin-bottom: 1%; /* Utilizamos porcentaje en lugar de píxeles */
+}
+
+.descriptionkfc {
+    font-size: 7.5vw; /* Utilizamos unidades relativas */
+}
+.descriptionk {
+    font-size: 1.5vw; /* Utilizamos unidades relativas */
+}
+
+/* Estilos para hacer la sección "text-agencia" más responsiva */
+@media (max-width: 768px) {
+    .descriptionkfc {
+        font-size: 3.5vw; /* Utilizamos unidades relativas */
+    }
+}
+
+@media (max-width: 576px) {
+    .titlekfc {
+        font-size: 1.5rem;
+    }
+    .descriptiokfc {
+        font-size: 0.1rem;
+    }
+}
+
+.textos-adicionales {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 7%; /* Utilizamos unidades relativas */
+  padding-left: 7.5%; /* Utilizamos unidades relativas */
+}
+
+/* Estilo para el contenedor de título y subtítulo */
+.texto-titulo-subtitulo {
+  text-align: center;
+  margin: 0 5.5em; /* Espacio horizontal entre los elementos en unidades relativas */
+}
+
+/* Estilo para el título */
+.titulo {
+  font-size: 1.4em; /* Utilizamos unidades relativas */
+  color: white;
+}
+
+/* Estilo para el subtítulo */
+.subtitulo {
+  font-size: 1em; /* Utilizamos unidades relativas */
+  color: gray;
+  margin-top: 0.2em; /* Utilizamos unidades relativas */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Estilo para el enlace en el subtítulo */
+.subtitulo a {
+  display: inline-block;
+  max-width: 10em; /* Utilizamos unidades relativas */
+}
+
+@media (max-width: 768px) {
+  .textos-adicionales {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10em; /* Utilizamos unidades relativas */
+    padding-left: 8.5em; /* Utilizamos unidades relativas */
+  }
+
+  /* Ajusta el tamaño de fuente del título en dispositivos móviles si es necesario */
+  .titulo {
+    font-size: 1.4em; /* Utilizamos unidades relativas */
+  }
+
+  /* Ajusta el tamaño de fuente del subtítulo en dispositivos móviles si es necesario */
+  .subtitulo {
+    font-size: 1.2em; /* Utilizamos unidades relativas */
+    max-width: none;
+  }
+}
+
+
+
+.col-md-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 90%; /* Establece un ancho máximo relativo para el contenedor */
+  margin: 50px auto; /* Centra el contenedor horizontalmente */
+  margin-top: 0%; /* Establece un margen superior relativo */
+}
+
+.cuadros-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20%;
+
+}
+.cuadros-containers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.cuadro {
+  flex: 1;
+  border: 200px;
+  margin: 0.5%; /* Aumenta el margen para más espacio */
+
+  max-width: 100%; /* Cambia el porcentaje según tus necesidades */
+}
+
+
+.rectangulo {
+  width: 100%;
+  height: 5%; /* Cambia el porcentaje según tus necesidades */
+  margin-top: 1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-width: 99%;
+}
+
+/* Estilo para los contenedores de imágenes con efecto de zoom y oscurecimiento */
+.cuadro {
+  position: relative;
+  overflow: hidden;
+}
+.rectangulo {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Estilo para las imágenes */
+.cuadro .imagen-cuadro {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+.rectangulo .imagen-rectangulo {
+  width: 100%;
+  height: auto;
+  max-height: 901px; /* Cambia el valor máximo de altura según tus necesidades */
+  transition: transform 0.3s;
+}
+
+/* Ajusta la altura para pantallas medianas, como tablets */
+@media (max-width: 992px) {
+  .rectangulo .imagen-rectangulo {
+    max-height: 400px; /* Cambia este valor según tus necesidades para pantallas medianas */
+  }
+}
+
+/* Ajusta la altura para pantallas pequeñas, como celulares */
+@media (max-width: 768px) {
+  .rectangulo .imagen-rectangulo {
+    max-height: 200px; /* Cambia este valor según tus necesidades para pantallas pequeñas */
+  }
+}
+
+/* Estilo para el efecto de oscurecimiento */
+
+/* Aplica un zoom y oscurecimiento al pasar el cursor sobre las imágenes */
+.cuadro:hover .imagen-cuadro,
+.rectangulo:hover .imagen-rectangulo {
+  transform: scale(1.1);
+}
+
+/* Aplica el oscurecimiento al pasar el cursor sobre los contenedores de imágenes */
+.cuadro:hover::before,
+.rectangulo:hover::before {
+  background: rgba(0, 0, 0, 0.7); /* Fondo negro transparente al 50% de opacidad */
+}
+
+/* Estilos para pantallas medianas (por ejemplo, tablets) */
+@media (max-width: 992px) {
+  .col-md-12 {
+    margin-top: 10px; /* Ajusta el margen superior para pantallas medianas */
+  }
+
+  .cuadro {
+    max-width: calc(50% - 0px); /* Añade espacio entre los cuadrados para pantallas medianas */
+  }
+}
+
+/* Estilos para pantallas pequeñas (por ejemplo, smartphones) */
+@media (max-width: 768px) {
+  .col-md-12 {
+    margin-top: 200px; /* Ajusta el margen superior para pantallas pequeñas */
+  }
+
+  .cuadros-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cuadros-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cuadro {
+    max-width: 100%; /* Hace que los cuadrados ocupen todo el ancho en pantallas pequeñas */
+  }
+}
+
+
+/* ------------------------------
+texto estilo del tituo
+------------------------------- */
+/* Define una clase personalizada para centrar texto horizontalmente */
+.texto-centrado {
+text-align: center;
+}
+
+/* Estilo para los contenedores de imagen con título y subtítulo */
+.imagen-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Estilo para el texto en el centro de la imagen */
+.texto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Inicialmente, el texto es invisible */
+
+  color: white;
+  transition: opacity 0.3s;
+  z-index: 2;
+}
+
+/* Aplica el efecto de mostrar el texto al pasar el cursor sobre las imágenes */
+.imagen-container:hover .texto {
+  opacity: 1; /* Hace que el texto sea visible */
+}
+
+/* Estilo para el título */
+.texto h3.title {
+  margin: 0;
+  font-size: 18px; /* Tamaño del título */
+}
+
+/* Estilo para el subtítulo */
+.texto p.subtitle {
+  margin: 0;
+  font-size: 35px; /* Tamaño del subtítulo */
+}
