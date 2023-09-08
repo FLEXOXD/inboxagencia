@@ -5,7 +5,7 @@
           <div class="row align-items-center g-5 ">
               <div class="texto-centrado  ">
                 <h4 class=" animated slideInLeft medium">inbox<span class="black">.agencia</span></h4>
-                  <p class="  description-port texto-centrado extrabold" >
+                  <p class="  description-port  extrabold" >
                      Casos de Exito
                    </p>
               </div>
@@ -16,11 +16,11 @@
   <div class="col-md-12">
   <div class="cuadros-container">
 
-    <div class="cuadro" data-url="<?php echo site_url(); ?>"> <!-- Reemplaza URL_del_primer_enlace con la URL deseada -->
+    <div class="cuadro" data-url="<?php echo site_url('Portafolios/port1'); ?>"> <!-- Reemplaza URL_del_primer_enlace con la URL deseada -->
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
 
-        <img src="<?php echo base_url('assets/icono/logo1.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+        <img src="<?php echo base_url('assets/icono/kfccc.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
 
         <div class="texto">
           <h3 class="title light">Título 1</h3>
@@ -28,21 +28,21 @@
         </div>
       </div>
     </div>
-    <div class="cuadro" data-url="<?php echo site_url(); ?>">
-          <!-- Primer cuadro con imagen y enlace -->
+    <div class="cuadro" data-url="<?php echo site_url('Portafolios/port1'); ?>"> <!-- Reemplaza URL_del_primer_enlace con la URL deseada -->
+      <!-- Primer cuadro con imagen -->
+      <div class="imagen-container">
 
-            <div class="imagen-container">
-              <img src="<?php echo base_url('assets/icono/logo1.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
-            </div>
-            <div class="texto">
-              <h3 class="title light">Título 1</h3>
-              <p class="subtitle medium">Subtítulo 1</p>
-            </div>
+        <img src="<?php echo base_url('assets/icono/logo2.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
 
+        <div class="texto">
+          <h3 class="title light">Título 2</h3>
+          <p class="subtitle medium">Subtítulo 2</p>
         </div>
+      </div>
+    </div>
   </div>
   <!-- Rectángulo con imagen que ocupa el ancho de los cuadrados -->
-  <div class="rectangulo " data-url="<?php echo site_url(); ?>">
+  <div class="rectangulo " data-url="<?php echo site_url('Portafolios/port1'); ?>">
   <div class="imagen-container">
     <img  src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo rounded w-100 wow zoomIn">
     <div class="texto texto-rectangulo"> <!-- Agrega la clase texto-rectangulo -->
@@ -52,17 +52,17 @@
   </div>
 </div>
   <div class="cuadros-container">
-    <div class="cuadro" data-url="<?php echo site_url(); ?>">
+    <div class="cuadro" data-url="<?php echo site_url('Portafolios/port1'); ?>">
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
-        <img src="<?php echo base_url('assets/icono/logo1.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+        <img src="<?php echo base_url('assets/icono/logo2.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
         <div class="texto">
           <h3 class="title light">Título 4</h3>
           <p class="subtitle medium">Subtítulo 4</p>
         </div>
       </div>
     </div>
-    <div class="cuadro" data-url="<?php echo site_url(); ?>">
+    <div class="cuadro" data-url="<?php echo site_url('Portafolios/port1'); ?>">
       <!-- Segundo cuadro con imagen -->
       <div class="imagen-container">
         <img src="<?php echo base_url('assets/icono/logo2.jpg'); ?>" alt="Imagen 2" class="imagen-cuadro rounded w-100 wow zoomIn">
@@ -74,7 +74,7 @@
     </div>
   </div>
   <!-- Rectángulo con imagen que ocupa el ancho de los cuadrados -->
-  <div class="rectangulo " data-url="<?php echo site_url(); ?>">
+  <div class="rectangulo " data-url="<?php echo site_url('Portafolios/port1'); ?>">
     <div class="imagen-container">
       <img src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulo rounded w-100 wow zoomIn">
       <div class="texto texto-rectangulo">
@@ -92,7 +92,7 @@
     const cuadros = document.querySelectorAll('.cuadro , .rectangulo');
 
     cuadros.forEach((cuadro) => {
-      cuadro.style.cursor = 'url("<?php echo base_url('assets/imagen/icon/cursor54.svg'); ?>") , pointer'; // Cambia la ruta a la ubicación real de tu archivo SVG y establece el tamaño (16x16 en este ejemplo)
+      cuadro.style.cursor = 'url("<?php echo base_url(''); ?>") , pointer'; // Cambia la ruta a la ubicación real de tu archivo SVG y establece el tamaño (16x16 en este ejemplo)
       cuadro.addEventListener('click', function () {
         const url = cuadro.getAttribute('data-url');
         if (url) {

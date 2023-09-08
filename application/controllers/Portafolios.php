@@ -13,7 +13,7 @@ class Portafolios extends CI_Controller {
 	public function port1()
 	{
 		$this->load->view('inicio/header');
-		$this->load->view('portafolio/portafolio1');
+		$this->load->view('portafolio/portafolio');
 		$this->load->view('inicio/footer');
 	}
 	public function port2()
