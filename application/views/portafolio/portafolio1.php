@@ -76,7 +76,7 @@
               <div class="texto-centrado  ">
                 <h4 class=" animated slideInLeft titlek thim">SocialMedia.-<span class="black"><span  style="visibility: hidden;">n</span>Presentación</span></h4>
 <br>
-                  <p class="  descriptionk animated slideInLeft  bold" >
+                  <p class="  descriptionk animated slideInLeft  medium" >
                      El icónico logo de KFC,
                     con su imagen de un
                       coronel <br>sonriente, se

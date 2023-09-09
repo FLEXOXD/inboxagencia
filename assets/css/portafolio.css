@@ -20,9 +20,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 70%; /* Establece un ancho máximo relativo para el contenedor */
+  max-width: 71%; /* Establece un ancho máximo relativo para el contenedor */
   margin: 0 auto; /* Centra el contenedor horizontalmente */
-  margin-top: 14%; /* Establece un margen superior relativo */
+  margin-top: 15%; /* Establece un margen superior relativo */
 }
 
 .cuadros-container {
