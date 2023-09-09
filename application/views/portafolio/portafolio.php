@@ -98,8 +98,8 @@
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
         <div class="image-overlay">
-          <a href="<?php echo base_url(); ?>/assets/icono/coopercar/DreamShaper_v7_kfc_0.jpg" data-fancybox="gal">
-            <img src="<?php echo base_url(); ?>/assets/icono/coopercar/DreamShaper_v7_kfc_0.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+          <a href="<?php echo base_url(); ?>/assets/icono/coopercar/saco.jpg" data-fancybox="gal">
+            <img src="<?php echo base_url(); ?>/assets/icono/coopercar/saco1c.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
           </a>
         </div>
       </div>
@@ -109,7 +109,7 @@
       <div class="imagen-container">
         <div class="image-overlay">
           <a href="<?php echo base_url(); ?>/assets/icono/coopercar/casco.jpg" data-fancybox="gal">
-            <img src="<?php echo base_url(); ?>/assets/icono/coopercar/casco.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+            <img src="<?php echo base_url(); ?>/assets/icono/coopercar/casco2c.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
           </a>
         </div>
       </div>
@@ -132,7 +132,7 @@
       <div class="imagen-container">
         <div class="image-overlay">
           <a href="<?php echo base_url(); ?>/assets/icono/coopercar/gafete.jpg" data-fancybox="gal">
-            <img src="<?php echo base_url(); ?>/assets/icono/coopercar/gafete.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+            <img src="<?php echo base_url(); ?>/assets/icono/coopercar/gafetec.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
           </a>
         </div>
       </div>
@@ -142,7 +142,7 @@
       <div class="imagen-container">
         <div class="image-overlay">
           <a href="<?php echo base_url(); ?>/assets/icono/coopercar/banderas.jpg" data-fancybox="gal">
-            <img src="<?php echo base_url(); ?>/assets/icono/coopercar/banderas.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+            <img src="<?php echo base_url(); ?>/assets/icono/coopercar/b-anderasc.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
           </a>
         </div>
       </div>
