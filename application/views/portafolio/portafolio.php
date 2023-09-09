@@ -98,8 +98,8 @@
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
         <div class="image-overlay">
-          <a href="<?php echo base_url(); ?>/assets/icono/coopercar/saco.jpg" data-fancybox="gal">
-            <img src="<?php echo base_url(); ?>/assets/icono/coopercar/saco.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+          <a href="<?php echo base_url(); ?>/assets/icono/coopercar/DreamShaper_v7_kfc_0.jpg" data-fancybox="gal">
+            <img src="<?php echo base_url(); ?>/assets/icono/coopercar/DreamShaper_v7_kfc_0.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
           </a>
         </div>
       </div>
@@ -148,16 +148,7 @@
       </div>
     </div>
   </div>
-  <div class="rectangulo">
-    <!-- Primer cuadro con imagen -->
-    <div class="imagen-container">
-      <div class="image-overlay">
-        <a href="<?php echo base_url(); ?>/assets/icono/coopercar/portadacooper.jpg" data-fancybox="gal">
-          <img src="<?php echo base_url(); ?>/assets/icono/coopercar/portadacooper.jpg" alt="Imagen 3" class="imagen-rectangulo rounded w-100 wow zoomIn">
-        </a>
-      </div>
-    </div>
-  </div>
+
 
 
 </div>

@@ -16,7 +16,7 @@ Titulo de las palabras sección portafolio
 @media (max-width: 768px) {
   .Sectionkfc {
     text-align: center;
-    padding-left: 2%; /* Utilizamos porcentaje en lugar de píxeles */
+    padding-left: 1%; /* Utilizamos porcentaje en lugar de píxeles */
     margin-top: 5%; /* Utilizamos porcentaje en lugar de píxeles */
   }
 }
@@ -186,7 +186,7 @@ Titulo de las palabras sección portafolio
 .rectangulo .imagen-rectangulo {
   width: 100%;
   height: auto;
-  max-height: 901px; /* Cambia el valor máximo de altura según tus necesidades */
+  max-height: 1000px; /* Cambia el valor máximo de altura según tus necesidades */
   transition: transform 0.3s;
 }
 
