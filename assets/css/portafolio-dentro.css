@@ -109,17 +109,17 @@ Titulo de las palabras sección portafolio
     flex-direction: column;
     align-items: center;
     margin-bottom: 10em; /* Utilizamos unidades relativas */
-    padding-left: 1.5em; /* Utilizamos unidades relativas */
+    padding-left: 4.8em; /* Utilizamos unidades relativas */
   }
 
   /* Ajusta el tamaño de fuente del título en dispositivos móviles si es necesario */
   .titulo {
-    font-size: 1.4em; /* Utilizamos unidades relativas */
+    font-size: 1.1em; /* Utilizamos unidades relativas */
   }
 
   /* Ajusta el tamaño de fuente del subtítulo en dispositivos móviles si es necesario */
   .subtitulo {
-    font-size: 2.2em; /* Utilizamos unidades relativas */
+    font-size: 1.2em; /* Utilizamos unidades relativas */
     max-width: none;
   }
 }
