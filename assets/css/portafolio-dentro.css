@@ -39,7 +39,7 @@ Titulo de las palabras sección portafolio
     }
 }
 .descriptionkfc {
-    font-size: 7.5vw; /* Utilizamos unidades relativas */
+    font-size: 5.5vw; /* Utilizamos unidades relativas */
 }
 /* Estilos base para elementos con la clase .descriptionk */
 .descriptionk {
@@ -89,7 +89,7 @@ Titulo de las palabras sección portafolio
 
 /* Estilo para el subtítulo */
 .subtitulo {
-  font-size: 1em; /* Utilizamos unidades relativas */
+  font-size: 1.1em; /* Utilizamos unidades relativas */
   color: gray;
   margin-top: 0.2em; /* Utilizamos unidades relativas */
   white-space: nowrap;
@@ -119,7 +119,7 @@ Titulo de las palabras sección portafolio
 
   /* Ajusta el tamaño de fuente del subtítulo en dispositivos móviles si es necesario */
   .subtitulo {
-    font-size: 1.2em; /* Utilizamos unidades relativas */
+    font-size: 2.2em; /* Utilizamos unidades relativas */
     max-width: none;
   }
 }

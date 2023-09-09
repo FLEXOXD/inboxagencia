@@ -46,20 +46,20 @@
                          <div class="textos-adicionales">
                            <!-- Título y subtítulo con clase personalizada -->
                            <div class="texto-titulo-subtitulo">
-                             <h2 class="titulo thim animated slideInLeft ">Solución</h2>
-                             <p class="subtitulo light animated slideInLeft ">Diseño de Logotipo</p>
+                             <h2 class="titulo bold animated slideInLeft ">Solución</h2>
+                             <p class="subtitulo regular animated slideInLeft " style="color: white;">Diseño de Logotipo</p>
                            </div>
 
                            <!-- Título y subtítulo con clase personalizada -->
                            <div class="texto-titulo-subtitulo">
-                             <h2 class="titulo thim animated slideInLeft ">Año</h2>
-                             <p class="subtitulo light animated slideInLeft ">2018</p>
+                             <h2 class="titulo bold animated slideInLeft ">Año</h2>
+                             <p class="subtitulo regular animated slideInLeft " style="color: white;">2018</p>
                            </div>
 
                            <!-- Título y subtítulo con clase personalizada -->
                            <div class="texto-titulo-subtitulo">
-                             <h2 class="titulo thim animated slideInLeft ">Enlace</h2>
-                             <p class="subtitulo light animated slideInLeft "><a href="https://www.instagram.com/kfcecuador/">@KFCEcuadorIG</a></p>
+                             <h2 class="titulo bold animated slideInLeft ">Enlace</h2>
+                             <p class="subtitulo regular animated slideInLeft "><a style="color: white;" href="https://www.instagram.com/kfcecuador/">@KFCEcuadorIG</a></p>
                            </div>
                          </div>
                     </div>
