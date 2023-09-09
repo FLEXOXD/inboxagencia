@@ -29,7 +29,7 @@ Titulo de las palabras sección portafolio
     margin-bottom: 1%; /* Utilizamos porcentaje en lugar de píxeles */
 }
 .titlek {
-    font-size: 2.2vw; /* Utilizamos unidades relativas */
+    font-size: 1.2vw; /* Utilizamos unidades relativas */
     margin-bottom: 1%; /* Utilizamos porcentaje en lugar de píxeles */
 }
 @media (max-width: 768px) {
