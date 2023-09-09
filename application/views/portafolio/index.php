@@ -35,8 +35,8 @@
         <img src="<?php echo base_url('assets/icono/alexmovilex/previalexmovi.jpg'); ?>" alt="Imagen 1" class="imagen-cuadros rounded w-100 wow zoomIn">
 
         <div class="texto">
-          <h3 class="title light">Título 2</h3>
-          <p class="subtitle medium">Subtítulo 2</p>
+          <h3 class="title light">Social Media</h3>
+          <p class="subtitle medium">Alexmovilex</p>
         </div>
       </div>
     </div>
