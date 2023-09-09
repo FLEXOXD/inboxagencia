@@ -34,7 +34,7 @@ Titulo de las palabras sección portafolio
 }
 @media (max-width: 768px) {
     .titlek {
-        font-size: 2rem; /* Tamaño de fuente fijo en pantallas pequeñas */
+        font-size: 1.4rem; /* Tamaño de fuente fijo en pantallas pequeñas */
         margin-bottom: 10px; /* Margen inferior fijo en pantallas pequeñas */
     }
 }
@@ -59,7 +59,7 @@ Titulo de las palabras sección portafolio
 /* Media query para ajustar los estilos en pantallas más pequeñas */
 @media (max-width: 768px) {
     .descriptionk {
-        font-size: 5.9rem; /* Tamaño de fuente fijo en pantallas pequeñas */
+        font-size: 1rem; /* Tamaño de fuente fijo en pantallas pequeñas */
         margin-bottom: 10px; /* Margen inferior fijo en pantallas pequeñas */
     }
 }
@@ -214,7 +214,7 @@ Titulo de las palabras sección portafolio
 /* Ajusta la altura para pantallas pequeñas, como celulares */
 @media (max-width: 768px) {
   .rectangulo .imagen-rectangulo {
-    max-height: 200px; /* Cambia este valor según tus necesidades para pantallas pequeñas */
+    max-height: 250px; /* Cambia este valor según tus necesidades para pantallas pequeñas */
   }
 }
 

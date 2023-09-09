@@ -316,7 +316,7 @@ setTimeout(function () {
       </li>
 
       <li class="t-center m-b-13">
-        <a href="about.html" class="medium" style="font-size: 20px;" >Clientes</a>
+        <a href="<?php echo site_url('Clientes/index'); ?>" class="medium" style="font-size: 20px;" >Clientes</a>
       </li>
 
       <li class="t-center m-b-13">

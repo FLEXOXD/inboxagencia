@@ -24,7 +24,14 @@ seccion portafolio
   background-repeat: no-repeat;
   background-position: center; /* Ajusta la posición de la imagen de fondo según sea necesario */
   padding-bottom: 100px; /* Ajusta la cantidad de espacio en la parte inferior para evitar que choque con el footer */
-   
+
+}
+.content-container-cliente {
+  background-image: url('../imagen/fondos/fondoruido2.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL de tu imagen de fondo */
+  background-size: 100% 100%; /* Ajusta el tamaño de la imagen de fondo según sea necesario */
+  background-repeat: no-repeat;
+  background-position: center; /* Ajusta la posición de la imagen de fondo según sea necesario */
+  padding-bottom: 100px; /* Ajusta la cantidad de espacio en la parte inferior para evitar que choque con el footer */
 }
 
 
