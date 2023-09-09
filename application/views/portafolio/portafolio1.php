@@ -1,185 +1,158 @@
-<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<!DOCTYPE html>
-<html lang="en-US">
-    <!--<![endif]-->
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/portafolio-dentro.css">
+<link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/jquery.fancybox.min.css">
+<style media="screen">
+/* Estilo para el contenedor de imagen con superposición */
+.image-overlay {
+  position: relative;
+  overflow: hidden;
+}
 
-    <head>
-        <meta charset="utf-8">
-        <title>
-            Imminent - The most spectacular coming soon template!
-        </title><!-- Behavioral Meta Data -->
-        <meta content="yes" name="apple-mobile-web-app-capable">
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"><!-- Core Meta Data -->
-        <meta content="ThemeWagon" name="author">
-        <meta content="The most spectacular coming soon template!" name="description">
-        <meta content="Comming Soon, Responsive, Landing Page, One Page" name="keywords"><!-- Open Graph Meta Data -->
-        <meta content="The most spectacular coming soon template!">
-        <meta content="ThemeWagon">
-        <meta content="ThemeWagon">
-        <meta content="website">
-        <meta content="index.html"><!-- Twitter Card Meta Data -->
-        <meta content="summary" name="twitter:card">
-        <meta content="@themewagon" name="twitter:site">
-        <meta content="@themewagon" name="twitter:creator">
-        <meta content="ThemeWagon" name="twitter:title">
-        <meta content="Imminent - The most spectacular coming soon template!" name="twitter:description">
+/* Estilo para la superposición */
+.image-overlay a {
+  display: block;
+}
 
-        <link href="favicon.png" rel="shortcut icon" type="image/png">
+/* Aplica el efecto de zoom y oscurecimiento al pasar el cursor sobre las imágenes */
 
-        <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
 
-        <!-- CSS -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,900' rel='stylesheet' type='text/css'><!-- Styles -->
-        <link href="css/loader.css" rel="stylesheet" type="text/css">
-        <link href="css/normalize.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <!--[if lt IE 9]>
-            <link rel="stylesheet" type="text/css" href="css/ie.css" />
-        <![endif]-->
-        <!-- Javascript -->
 
-        <script src="js/jquery.js"></script>
-    </head>
-    <body>
-        <div class="preloader">
-            <div class="loading">
-                <h2>
-                    Loading...
-                </h2>
-                <span class="progress"></span>
+
+.image-overlay:hover::before {
+  opacity: 1; /* Hace que la superposición sea visible al pasar el cursor */
+}
+
+</style>
+<style media="screen">
+.heroskfc {
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0vh; /* Ajusta la altura según tus necesidades */
+
+}
+</style>
+<section class="hero-section" id="section_1">
+    <div class="video-wrap">
+        <img class="custom-video" src="<?php echo base_url(); ?>/assets/icono/alexmovilex/portadaalexmovilex.jpg" alt="Descripción de la imagen">
+        <div class=" py-1   ">
+            <div class=" my-5 py-5">
+                <div class="row align-items-center g-5 ">
+                    <div class="Sectionkfc">
+                      <h4 class=" animated slideInLeft titlekfc thim">Social<span class="black">Media</span></h4>
+                        <p class="  animated slideInLeft  descriptionkfc medium" >
+                           Alexmovilex
+                         </p>
+                         <div class="textos-adicionales">
+                           <!-- Título y subtítulo con clase personalizada -->
+                           <div class="texto-titulo-subtitulo">
+                             <h2 class="titulo boldsssss animated slideInLeft ">Solución</h2>
+                             <p class="subtitulo regular animated slideInLeft " style="color: white;">Diseño de Logotipo</p>
+                           </div>
+
+                           <!-- Título y subtítulo con clase personalizada -->
+                           <div class="texto-titulo-subtitulo">
+                             <h2 class="titulo boldsssss animated slideInLeft ">Año</h2>
+                             <p class="subtitulo regular animated slideInLeft " style="color: white;">2018</p>
+                           </div>
+
+                           <!-- Título y subtítulo con clase personalizada -->
+                           <div class="texto-titulo-subtitulo">
+                             <h2 class="titulo boldsssss animated slideInLeft ">Enlace</h2>
+                             <p class="subtitulo regular animated slideInLeft "><a style="color: white;" href="https://www.instagram.com/kfcecuador/">@KFCEcuadorIG</a></p>
+                           </div>
+                         </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="wrapper">
-            <ul class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" id="scene">
-                <li class="layer" data-depth="0.00">
-                </li>
-                <!-- BG -->
+    </div>
+</section>
+<div class="content-portafolio-dentro">
+  <div class=" py-5 bg-dark heroskfc  mb-5">
+      <div class="container my-5 py-5">
+          <div class="row align-items-center g-5 ">
+              <div class="texto-centrado  ">
+                <h4 class=" animated slideInLeft titlek thim">SocialMedia.-<span class="black"><span  style="visibility: hidden;">n</span>Presentación</span></h4>
+<br>
+                  <p class="  descriptionk animated slideInLeft  bold" >
+                     El icónico logo de KFC,
+                    con su imagen de un
+                      coronel <br>sonriente, se
+                      ha convertido en un
+                      símbolo reconocido en
+                      todo el<br> mundo, representando
+                      la deliciosa tradición de pollo
+                      frito que la marca<br> ha mantenido
+                      durante décadas
+                   </p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-12">
+  <div class="cuadros-container">
 
-                <li class="layer" data-depth="0.10">
-                    <div class="background">
-                    </div>
-                </li>
-
-                <!-- Hero -->
-
-                <li class="layer" data-depth="0.20">
-                    <div class="title">
-                        <h2>
-                            IMMINENT
-                        </h2>
-                        <span class="line"></span>
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.25">
-                    <div class="sphere">
-                        <img alt="sphere" src="images/sphere.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.30">
-                    <div class="hero">
-                        <h1 id="countdown">
-                            The most spectacular coming soon template!
-                        </h1>
-
-                        <p class="sub-title">
-                            The most spectacular coming soon template!
-                        </p>
-                    </div>
-                </li>
-                <!-- Flakes -->
-
-                <li class="layer" data-depth="0.40">
-                    <div class="depth-1 flake1">
-                        <img alt="flake" src="images/flakes/depth1/flakes1.png">
-                    </div>
-
-                    <div class="depth-1 flake2">
-                        <img alt="flake" src="images/flakes/depth1/flakes2.png">
-                    </div>
-
-                    <div class="depth-1 flake3">
-                        <img alt="flake" src="images/flakes/depth1/flakes3.png">
-                    </div>
-
-                    <div class="depth-1 flake4">
-                        <img alt="flake" src="images/flakes/depth1/flakes4.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.50">
-                    <div class="depth-2 flake1">
-                        <img alt="flake" src="images/flakes/depth2/flakes1.png">
-                    </div>
-
-                    <div class="depth-2 flake2">
-                        <img alt="flake" src="images/flakes/depth2/flakes2.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.60">
-                    <div class="depth-3 flake1">
-                        <img alt="flake" src="images/flakes/depth3/flakes1.png">
-                    </div>
-
-                    <div class="depth-3 flake2">
-                        <img alt="flake" src="images/flakes/depth3/flakes2.png">
-                    </div>
-
-                    <div class="depth-3 flake3">
-                        <img alt="flake" src="images/flakes/depth3/flakes3.png">
-                    </div>
-
-                    <div class="depth-3 flake4">
-                        <img alt="flake" src="images/flakes/depth3/flakes4.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="0.80">
-                    <div class="depth-4">
-                        <img alt="flake" src="images/flakes/depth4/flakes.png">
-                    </div>
-                </li>
-
-                <li class="layer" data-depth="1.00">
-                    <div class="depth-5">
-                        <img alt="flake" src="images/flakes/depth5/flakes.png">
-                    </div>
-                </li>
-                <!-- Contact -->
-
-                <li class="layer" data-depth="0.20">
-                    <div class="contact">
-                        <ul class="icons">
-                            <li>
-                                <a class="behance" href="#"><i class="fa fa-behance"></i></a>
-                            </li>
-
-                            <li>
-                                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-
-                            <li>
-                                <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                        Theme by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
-                        <a class="mail" href="mailto:info@example.com?subject=Hi%20ThemeWagon!">info@example.com</a>
-                    </div>
-                </li>
-            </ul>
+    <div class="cuadro">
+      <!-- Primer cuadro con imagen -->
+      <div class="imagen-container">
+        <div class="image-overlay">
+          <a href="<?php echo base_url(); ?>/assets/icono/alexmovilex/1.jpg" data-fancybox="gal">
+            <img src="<?php echo base_url(); ?>/assets/icono/alexmovilex/1.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+          </a>
         </div>
+      </div>
+    </div>
+    <div class="cuadro">
+      <!-- Primer cuadro con imagen -->
+      <div class="imagen-container">
+        <div class="image-overlay">
+          <a href="<?php echo base_url(); ?>/assets/icono/alexmovilex/2.jpg" data-fancybox="gal">
+            <img src="<?php echo base_url(); ?>/assets/icono/alexmovilex/2.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rectangulo">
+    <!-- Primer cuadro con imagen -->
+    <div class="imagen-container">
+      <div class="image-overlay">
+        <a href="<?php echo base_url(); ?>/assets/icono/alexmovilex/3.jpg" data-fancybox="gal">
+          <img src="<?php echo base_url(); ?>/assets/icono/alexmovilex/3.jpg" alt="Imagen 3" class="imagen-rectangulo rounded w-100 wow zoomIn">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="cuadros-containers">
 
-        <!-- Javascript -->
-        <script src="js/plugins.js"></script>
-        <script src="js/jquery.countdown.min.js"></script>
-        <script src="js/main.js"></script>
+    <div class="cuadro">
+      <!-- Primer cuadro con imagen -->
+      <div class="imagen-container">
+        <div class="image-overlay">
+          <a href="<?php echo base_url(); ?>/assets/icono/alexmovilex/4.jpg" data-fancybox="gal">
+            <img src="<?php echo base_url(); ?>/assets/icono/alexmovilex/4.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="cuadro">
+      <!-- Primer cuadro con imagen -->
+      <div class="imagen-container">
+        <div class="image-overlay">
+          <a href="<?php echo base_url(); ?>/assets/icono/alexmovilex/5.jpg" data-fancybox="gal">
+            <img src="<?php echo base_url(); ?>/assets/icono/alexmovilex/5.jpg" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    </body>
-</html>
+
+
+</div>
+</div>
+</div>
+<script src="<?php echo base_url(); ?>/assets/js/jquery-3.4.1.min.js"></script>
+<script src="<?php echo base_url(); ?>/assets/js/jquery.fancybox.min.js"></script>

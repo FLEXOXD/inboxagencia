@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <div class="cuadros" data-url="<?php echo site_url('Portafolios/port1'); ?>"> <!-- Reemplaza URL_del_primer_enlace con la URL deseada -->
+    <div class="cuadros" data-url="<?php echo site_url('Portafolios/port2'); ?>"> <!-- Reemplaza URL_del_primer_enlace con la URL deseada -->
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
 
@@ -42,7 +42,7 @@
     </div>
   </div>
   <!-- Rectángulo con imagen que ocupa el ancho de los cuadrados -->
-  <div class="rectangulos " data-url="<?php echo site_url('Portafolios/port1'); ?>">
+  <div class="rectangulos " data-url="<?php echo site_url('Portafolios/port2'); ?>">
   <div class="imagen-container">
     <img  src="<?php echo base_url('assets/icono/avenger.jpg'); ?>" alt="Imagen 3" class="imagen-rectangulos rounded w-100 wow zoomIn">
     <div class="texto texto-rectangulos"> <!-- Agrega la clase texto-rectangulo -->
