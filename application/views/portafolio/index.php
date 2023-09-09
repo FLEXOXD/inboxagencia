@@ -32,7 +32,7 @@
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
 
-        <img src="<?php echo base_url('assets/icono/logo2.jpg'); ?>" alt="Imagen 1" class="imagen-cuadros rounded w-100 wow zoomIn">
+        <img src="<?php echo base_url('assets/icono/alexmovilex/previalexmovi.jpg'); ?>" alt="Imagen 1" class="imagen-cuadros rounded w-100 wow zoomIn">
 
         <div class="texto">
           <h3 class="title light">Título 2</h3>

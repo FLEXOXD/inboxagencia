@@ -16,7 +16,7 @@ Titulo de las palabras sección portafolio
 @media (max-width: 768px) {
   .Sectionkfc {
     text-align: center;
-    padding-left: 1%; /* Utilizamos porcentaje en lugar de píxeles */
+    padding-left: 5%; /* Utilizamos porcentaje en lugar de píxeles */
     margin-top: 5%; /* Utilizamos porcentaje en lugar de píxeles */
   }
 }
@@ -25,7 +25,7 @@ Titulo de las palabras sección portafolio
 ---------------------------------------*/
 
 .titlekfc {
-    font-size: 2.2vw; /* Utilizamos unidades relativas */
+    font-size: 1.5vw; /* Utilizamos unidades relativas */
     margin-bottom: 1%; /* Utilizamos porcentaje en lugar de píxeles */
 }
 .titlek {
@@ -41,6 +41,15 @@ Titulo de las palabras sección portafolio
 .descriptionkfc {
     font-size: 5.5vw; /* Utilizamos unidades relativas */
 }
+@media (max-width: 576px) {
+    .titlekfc {
+        font-size: 1.5rem;
+    }
+    .descriptionkfc {
+        font-size: 3.5rem;
+
+    }
+}
 /* Estilos base para elementos con la clase .descriptionk */
 .descriptionk {
     font-size: 1.8vw; /* Tamaño de fuente relativo */
@@ -50,19 +59,13 @@ Titulo de las palabras sección portafolio
 /* Media query para ajustar los estilos en pantallas más pequeñas */
 @media (max-width: 768px) {
     .descriptionk {
-        font-size: 0.9rem; /* Tamaño de fuente fijo en pantallas pequeñas */
+        font-size: 5.9rem; /* Tamaño de fuente fijo en pantallas pequeñas */
         margin-bottom: 10px; /* Margen inferior fijo en pantallas pequeñas */
     }
 }
 
-@media (max-width: 576px) {
-    .titlekfc {
-        font-size: 1.5rem;
-    }
-    .descriptiokfc {
-        font-size: 2.5rem;
-    }
-}
+
+
 
 .textos-adicionales {
   position: absolute;
@@ -75,10 +78,21 @@ Titulo de las palabras sección portafolio
   padding-left: 7.5%; /* Utilizamos unidades relativas */
 }
 
+
 /* Estilo para el contenedor de título y subtítulo */
 .texto-titulo-subtitulo {
   text-align: center;
-  margin: 0 5.5em; /* Espacio horizontal entre los elementos en unidades relativas */
+  margin: 0 4.5em; /* Espacio horizontal entre los elementos en unidades relativas */
+}
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .texto-titulo-subtitulo {
+    text-align: center;
+    margin: 0 86px; /* Espacio horizontal en píxeles (ajustado para pantallas pequeñas) */
+  }
+  .texto-titulo-subtitulo > * {
+    margin-bottom: 20px; /* Espacio vertical entre elementos (ajustado para pantallas pequeñas) */
+  }
 }
 
 /* Estilo para el título */
@@ -109,7 +123,7 @@ Titulo de las palabras sección portafolio
     flex-direction: column;
     align-items: center;
     margin-bottom: 10em; /* Utilizamos unidades relativas */
-    padding-left: 4.8em; /* Utilizamos unidades relativas */
+    padding-left: 4.2em; /* Utilizamos unidades relativas */
   }
 
   /* Ajusta el tamaño de fuente del título en dispositivos móviles si es necesario */
