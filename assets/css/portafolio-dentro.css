@@ -16,8 +16,8 @@ Titulo de las palabras sección portafolio
 @media (max-width: 768px) {
   .Sectionkfc {
     text-align: center;
-    padding-left: 5%; /* Utilizamos porcentaje en lugar de píxeles */
-    margin-top: 0%; /* Utilizamos porcentaje en lugar de píxeles */
+    padding-left: 2%; /* Utilizamos porcentaje en lugar de píxeles */
+    margin-top: 5%; /* Utilizamos porcentaje en lugar de píxeles */
   }
 }
 /* ------------------------------------
@@ -32,18 +32,26 @@ Titulo de las palabras sección portafolio
     font-size: 2.2vw; /* Utilizamos unidades relativas */
     margin-bottom: 1%; /* Utilizamos porcentaje en lugar de píxeles */
 }
-
+@media (max-width: 768px) {
+    .titlek {
+        font-size: 2rem; /* Tamaño de fuente fijo en pantallas pequeñas */
+        margin-bottom: 10px; /* Margen inferior fijo en pantallas pequeñas */
+    }
+}
 .descriptionkfc {
     font-size: 7.5vw; /* Utilizamos unidades relativas */
 }
+/* Estilos base para elementos con la clase .descriptionk */
 .descriptionk {
-    font-size: 1.5vw; /* Utilizamos unidades relativas */
+    font-size: 1.8vw; /* Tamaño de fuente relativo */
+    margin-bottom: 1%; /* Margen inferior relativo */
 }
 
-/* Estilos para hacer la sección "text-agencia" más responsiva */
+/* Media query para ajustar los estilos en pantallas más pequeñas */
 @media (max-width: 768px) {
-    .descriptionkfc {
-        font-size: 3.5vw; /* Utilizamos unidades relativas */
+    .descriptionk {
+        font-size: 0.9rem; /* Tamaño de fuente fijo en pantallas pequeñas */
+        margin-bottom: 10px; /* Margen inferior fijo en pantallas pequeñas */
     }
 }
 
@@ -52,7 +60,7 @@ Titulo de las palabras sección portafolio
         font-size: 1.5rem;
     }
     .descriptiokfc {
-        font-size: 0.1rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -101,7 +109,7 @@ Titulo de las palabras sección portafolio
     flex-direction: column;
     align-items: center;
     margin-bottom: 10em; /* Utilizamos unidades relativas */
-    padding-left: 8.5em; /* Utilizamos unidades relativas */
+    padding-left: 4.5em; /* Utilizamos unidades relativas */
   }
 
   /* Ajusta el tamaño de fuente del título en dispositivos móviles si es necesario */

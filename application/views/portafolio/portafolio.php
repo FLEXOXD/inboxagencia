@@ -34,14 +34,14 @@
 </style>
 <section class="hero-section" id="section_1">
     <div class="video-wrap">
-        <img class="custom-video" src="<?php echo base_url(); ?>/assets/icono/kfcportada.jpg" alt="Descripción de la imagen">
+        <img class="custom-video" src="<?php echo base_url(); ?>/assets/icono/coopercar/portadacooper.jpg" alt="Descripción de la imagen">
         <div class=" py-1   ">
             <div class=" my-5 py-5">
                 <div class="row align-items-center g-5 ">
                     <div class="Sectionkfc">
                       <h4 class=" animated slideInLeft titlekfc thim">Bran<span class="black">ding</span></h4>
                         <p class="  animated slideInLeft  descriptionkfc medium" >
-                           KFC
+                           Coopercar
                          </p>
                          <div class="textos-adicionales">
                            <!-- Título y subtítulo con clase personalizada -->
@@ -98,7 +98,7 @@
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
         <div class="image-overlay">
-          <a href="<?php echo base_url('assets/icono/kfc/nuevo4.jpg'); ?>" data-fancybox="gal">
+          <a href="<?php echo base_url('assets/icono/kfc/kfc.jpg'); ?>" data-fancybox="gal">
             <img src="<?php echo base_url('assets/icono/kfc/nuevo4.jpg'); ?>" alt="Imagen 1" class="imagen-cuadro rounded w-100 wow zoomIn">
           </a>
         </div>
