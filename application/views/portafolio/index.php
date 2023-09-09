@@ -20,11 +20,11 @@
       <!-- Primer cuadro con imagen -->
       <div class="imagen-container">
 
-        <img src="<?php echo base_url('assets/icono/kfccc.jpg'); ?>" alt="Imagen 1" class="imagen-cuadros rounded w-100 wow zoomIn">
+        <img src="<?php echo base_url('assets/icono/coopercar/previsualizacionc.jpg'); ?>" alt="Imagen 1" class="imagen-cuadros rounded w-100 wow zoomIn">
 
         <div class="texto">
-          <h3 class="title light">Título 1</h3>
-          <p class="subtitle medium">Subtítulo 1</p>
+          <h3 class="title light">Diseño de logotipo</h3>
+          <p class="subtitle medium">Cooper Car</p>
         </div>
       </div>
     </div>
