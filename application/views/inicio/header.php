@@ -320,7 +320,7 @@ setTimeout(function () {
       </li>
 
       <li class="t-center m-b-13">
-        <a href="blog.html" class="medium" style="font-size: 20px;" >Contactanos</a>
+        <a href="<?php echo site_url('Contactos/index'); ?>" class="medium" style="font-size: 20px;" >Contactanos</a>
       </li>
 
       <li class="t-center">
