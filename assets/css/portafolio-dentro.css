@@ -43,10 +43,10 @@ Titulo de las palabras sección portafolio
 }
 @media (max-width: 576px) {
     .titlekfc {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .descriptionkfc {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
 
     }
 }
@@ -59,7 +59,7 @@ Titulo de las palabras sección portafolio
 /* Media query para ajustar los estilos en pantallas más pequeñas */
 @media (max-width: 768px) {
     .descriptionk {
-        font-size: 0.8rem; /* Tamaño de fuente fijo en pantallas pequeñas */
+        font-size: 1rem; /* Tamaño de fuente fijo en pantallas pequeñas */
         margin-bottom: 10px; /* Margen inferior fijo en pantallas pequeñas */
     }
 }
@@ -146,6 +146,7 @@ Titulo de las palabras sección portafolio
   max-width: 90%; /* Establece un ancho máximo relativo para el contenedor */
   margin: 50px auto; /* Centra el contenedor horizontalmente */
   margin-top: 0%; /* Establece un margen superior relativo */
+  margin-bottom:  -1%; /* Establece un margen superior relativo */
 }
 
 .cuadros-container {

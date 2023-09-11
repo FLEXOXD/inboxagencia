@@ -34,20 +34,7 @@
                   <a href="mailto:gerencia@inboxagencia.com" class="regular">gerencia@inboxagencia.com</a>
               </li>
           </ul>
-					<!-- - -->
-					<h4 class="medium m-b-32">
-						Horarios de apertura
-					</h4>
-
-					<ul>
-						<li class="regular">
-							08:30 AM – 7:00 PM
-						</li>
-
-						<li class="regular">
-							Lunes - Viernes
-						</li>
-					</ul>
+					
 				</div>
 
 				<div class="col-sm-6 col-md-4 p-t-50">

@@ -4,7 +4,7 @@
       <div class="container my-5 py-5">
           <div class="row align-items-center g-5 ">
               <div class="texto-centrado  ">
-                <h4 class=" animated slideInLeft medium">inbox<span class="black">.agencia</span></h4>
+                <h4 class=" animated slideInLeft boldsssss" style="color: white;">inbox<span class="regular">.agencia</span></h4>
                 <p class="description-port extrabold" style="color: white; line-height: 1;">Casos de éxito</p>
               </div>
           </div>

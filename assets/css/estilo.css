@@ -12,6 +12,7 @@
 /*---------------------------------------
   estilo del boton conócenos
 -----------------------------------------*/
+/* Estilo para el botón personalizado */
 .my-custom-button {
   position: relative;
   display: inline-block;
@@ -25,42 +26,47 @@
   margin-top: 40px;
   letter-spacing: 4px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
-  background-image: linear-gradient(135deg, #611FD1, #611FD1);
+  background-image: linear-gradient(135deg, #2871FA, #2871FA);
   box-shadow: 0 0 0 1px white; /* Agregar un contorno blanco */
 }
 
+/* Estilo al pasar el mouse sobre el botón personalizado */
 .my-custom-button:hover {
-  background-image: linear-gradient(135deg, #3E51EA, #611FD1);
+  background-image: linear-gradient(135deg, #2871FA, #2871FA);
   color: #fff;
-  box-shadow: 0 0 5px #611FD1,
-              0 0 25px #611FD1,
-              0 0 50px #611FD1,
-              0 0 100px #611FD1;
+  box-shadow: 0 0 5px #2871FA,
+              0 0 25px #2871FA,
+              0 0 50px #2871FA,
+              0 0 100px #2871FA;
 }
 
+/* Estilo para el elemento <span> dentro del botón personalizado (no parece estar en uso) */
 .my-custom-button span {
   position: absolute;
   display: block;
-  background-image: linear-gradient(135deg, #611FD1, #611FD1);
+  background-image: linear-gradient(135deg, #2871FA, #2871FA);
 }
 
+/* Estilo para el botón transparente */
 .transparent-button {
   background: transparent;
   border: 2px solid #ffffff;
   color: #ffffff;
 }
 
+/* Estilo al pasar el mouse sobre el botón transparente */
 .transparent-button:hover {
   background: transparent;
   color: #03f40f;
-  box-shadow: 0 0 5px #611FD1,
-              0 0 25px #611FD1,
-              0 0 50px #611FD1,
-              0 0 100px #611FD1;
+  box-shadow: 0 0 5px #2871FA,
+              0 0 25px #2871FA,
+              0 0 50px #2871FA,
+              0 0 100px #2871FA;
 }
 
+/* Estilo para el botón animado */
 .animated-button {
   position: relative;
   display: inline-block;
@@ -74,11 +80,12 @@
   margin-top: 40px;
   letter-spacing: 4px;
   border: none;
-  border-radius: 5px;
+  border-radius: 35px;
   cursor: pointer;
   background: transparent;
 }
 
+/* Estilo para la barra de animación dentro del botón animado */
 .animated-button .animation-bar {
   position: absolute;
   bottom: 2px;
@@ -89,10 +96,12 @@
   animation: btn-anim1 2s linear infinite;
 }
 
+/* Estilo al pasar el mouse sobre el botón animado */
 .animated-button:hover {
   background: transparent;
   color: #611FD1;
 }
+
 
 @keyframes btn-anim1 {
   0% {

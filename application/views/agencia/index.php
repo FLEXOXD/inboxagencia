@@ -182,7 +182,7 @@
             <div class="row align-items-center g-5 ">
 
                 <div class="col-lg-6 text-center text-lg-start">
-                    <h2 class=" animated slideInLeft medium">inbox<span class="black">.agencia</span></h2>
+                    <h2 class=" animated slideInLeft medium">inbox<span class="boldsssss">.agencia</span></h2>
                     <br>
                     <p class="animated slideInLeft mb-4 pb-2 description extrabold" >
                        Abandona lo común,abraza<br>
@@ -291,10 +291,10 @@
                                           <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="<?php echo base_url(); ?>/assets/icono/logo2.jpg">
                                       </div>
                                       <div class="col-6 text-start">
-                                          <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="<?php echo base_url(); ?>/assets/icono/logo2.jpg" style="margin-top: 25%;">
+                                          <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="<?php echo base_url(); ?>/assets/icono/logo2.jpg" >
                                       </div>
                                       <div class="col-6 text-end">
-                                          <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="<?php echo base_url(); ?>/assets/icono/logo3.jpg">
+                                          <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.5s" src="<?php echo base_url(); ?>/assets/icono/logo3.jpg">
                                       </div>
                                       <div class="col-6 text-end">
                                           <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="<?php echo base_url(); ?>/assets/icono/logo4.jpg">
@@ -303,7 +303,7 @@
                               </div>
                               <div class="col-lg-6">
                                   <h5 class="section-title ff-secondary text-start text-primary fw-normal regular">Sobre nosotros</h5>
-                                  <h1 class="mb-4 extrabold">Bienvenido a <i class="bi-palette-fill text-primary me-2"></i><span class="animated slideInLeft medium">inbox<span class="black">.agencia</span></span></h1>
+                                  <h1 class="mb-4 extrabold">Bienvenido a <i class=" text-primary me-2"></i><span class="animated slideInLeft medium">inbox<span class="black">.agencia</span></span></h1>
                                   <p class="mb-4 medium">Nuestro equipo es experto en Diseño Web, Desarrollo Web y Marketing Digital. Impulsamos tu presencia en línea con creatividad y experiencia.</p>
                                   <p class="mb-4 medium">Lideramos proyectos con calidad humana, adaptándonos a las necesidades de emprendedores, PyMes y grandes empresas. Ofrecemos un valioso servicio, fusionando estrategia, diseño y creatividad.</p>
                                   <div class="row g-4 mb-4">
