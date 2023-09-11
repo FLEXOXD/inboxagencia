@@ -47,19 +47,19 @@
                            <!-- Título y subtítulo con clase personalizada -->
                            <div class="texto-titulo-subtitulo">
                              <h2 class="titulo boldsssss animated slideInLeft ">Solución</h2>
-                             <p class="subtitulo regular animated slideInLeft " style="color: white;">Diseño de Logotipo</p>
+                             <p class="subtitulo thim animated slideInLeft " style="color: white;">Diseño de Logotipo</p>
                            </div>
 
                            <!-- Título y subtítulo con clase personalizada -->
                            <div class="texto-titulo-subtitulo">
                              <h2 class="titulo boldsssss animated slideInLeft ">Año</h2>
-                             <p class="subtitulo regular animated slideInLeft " style="color: white;">2018</p>
+                             <p class="subtitulo thim animated slideInLeft " style="color: white;">2018</p>
                            </div>
 
                            <!-- Título y subtítulo con clase personalizada -->
                            <div class="texto-titulo-subtitulo">
                              <h2 class="titulo boldsssss animated slideInLeft ">Enlace</h2>
-                             <p class="subtitulo regular animated slideInLeft "><a style="color: white;" href="https://www.instagram.com/kfcecuador/">@KFCEcuadorIG</a></p>
+                             <p class="subtitulo thim animated slideInLeft "><a style="color: white;" href="https://www.instagram.com/kfcecuador/">@KFCEcuadorIG</a></p>
                            </div>
                          </div>
                     </div>
@@ -76,16 +76,12 @@
               <div class="texto-centrado  ">
                 <h4 class=" animated slideInLeft titlek thim">KFC.-<span class="black"><span  style="visibility: hidden;">n</span>Presentación</span></h4>
 <br>
-                  <p class="  descriptionk animated slideInLeft  medium" >
+                  <p class="  descriptionk animated slideInLeft  regular" >
                      El icónico logo de KFC,
-                    con su imagen de un
-                      coronel <br>sonriente, se
+                    con su imagen de<br> un
+                      coronel sonriente, se
                       ha convertido en un
-                      símbolo<br> reconocido en
-                      todo el mundo, representando
-                      la deliciosa tradición de pollo
-                      frito que la marca ha mantenido
-                      durante décadas
+                      símbolo
                    </p>
               </div>
           </div>
